@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="400">
     <Grid>
-        <Button x:Siguiente Content="Siguiente" HorizontalAlignment="Left" Margin="61,178,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="238,178,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
+        <Button x:Name="Siguiente"  Content="Siguiente" HorizontalAlignment="Left" Margin="61,178,0,0" VerticalAlignment="Top" Width="100" Click="Button_Siguiente"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="238,178,0,0" VerticalAlignment="Top" Width="100" Click="Salir"/>
         <Label x:Name="lavel" Content="Numero 1" HorizontalAlignment="Left" Margin="43,78,0,0" VerticalAlignment="Top" Width="68"/>
         <TextBox x:Name="Textbox" HorizontalAlignment="Left" Margin="116,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="213" TextChanged="TextBox_TextChanged"/>
 

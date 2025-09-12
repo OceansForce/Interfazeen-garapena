@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ariketa4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ariketa4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Label Content="Usuario :" HorizontalAlignment="Left" Margin="80,58,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Usuario" HorizontalAlignment="Left" Margin="188,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Contraseña :" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Center"/>
+        <PasswordBox x:Name="Contraseña" HorizontalAlignment="Left" Margin="188,0,0,0" VerticalAlignment="Center" Width="120"/>
+        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="68,166,0,0" VerticalAlignment="Top" Click="Button_Aceptar"/>
+        <Button Content="Limpiar" HorizontalAlignment="Left" Margin="188,166,0,0" VerticalAlignment="Top" Click="Button_Limpiar"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="301,166,0,0" VerticalAlignment="Top" Click="Button_Salir"/>
+        <Label x:Name="label_mezua" Content="" HorizontalAlignment="Left" Margin="146,196,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

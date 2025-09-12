@@ -30,20 +30,35 @@ namespace Ariketa3
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Siguiente(object sender, RoutedEventArgs e)
         {
-            zenbs[kont]= int.Parse(Textbox.Text);
+            if (kont<4) {
+                zenbs[kont] = int.Parse(Textbox.Text);
+                Textbox.Text = "";
+
+                lavel.Content = "Numero " + (kont + 1);
+            }
             kont++;
 
-            if (kont>4)
+            if (kont == 4)
             {
+                Textbox.Text = ((zenbs[0] + (zenbs[0] * zenbs[1]) + (zenbs[1] * zenbs[2]) + (zenbs[2] * zenbs[3]))/4).ToString();
+
                 lavel.Content = "Resultado";
                 Textbox.IsEnabled = false;
-
+                Siguiente.Content = "Limpiar";
+            }
+            else if (kont == 5)
+            {
+                lavel.Content = "Numero 1";
+                Textbox.IsEnabled = true;
+                Siguiente.Content = "Siguiente";
+                kont = 0;
+                Textbox.Text = "";
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Salir(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
