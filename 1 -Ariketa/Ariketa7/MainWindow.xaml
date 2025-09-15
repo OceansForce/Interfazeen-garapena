@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ariketa7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300">
+        Title="MainWindow" Height="280" Width="300">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Textua" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="0." VerticalAlignment="Top" Width="268" Height="28" Background="#FFF5FF3C" FontSize="18" TextAlignment="Right" FontWeight="Bold"/>
+        
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="Button_7"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="65,83,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_8"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="124,83,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_9"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_4"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="65,122,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="Button_5"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="124,122,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_6"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_1"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="65,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_2"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="124,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_3"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="85" Height="30"  Click="Button_0"/>
+
+        <Button Content="." HorizontalAlignment="Left" Margin="124,200,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Coma"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="194,83,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_C"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="256,83,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_CE"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="194,122,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Zatitu"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="256,122,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Kenketa"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="194,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Biderketa"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="256,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Gehiketa"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="194,197,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Erantzuna"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="256,197,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Portzentaila"/>
+
     </Grid>
 </Window>
