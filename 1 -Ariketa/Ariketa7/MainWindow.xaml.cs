@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Data;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,9 +22,6 @@ namespace Ariketa7
         {
             InitializeComponent();
         }
-
-
-        private string kalkulo_mota = "";
 
         private void Button_7(object sender, RoutedEventArgs e)
         {
@@ -143,7 +142,7 @@ namespace Ariketa7
 
         private void Button_Coma(object sender, RoutedEventArgs e)
         {
-            Textua.Text += ",";
+            Textua.Text += ".";
         }
 
         private void Button_C(object sender, RoutedEventArgs e)
@@ -165,17 +164,22 @@ namespace Ariketa7
         private void Button_Zatitu(object sender, RoutedEventArgs e)
         {
             string text = Textua.Text;
-            string[] parts = text.Split();
-            string lastPart = parts[parts.Length - 1];
+            string[] parts = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (!lastPart.Equals("/")) {
-                kalkulo_mota = "/";
-                parts[parts.Length - 1] = " / ";
-                Textua.Text = string.Join(" ", parts);
-            }
-            else
+            if (parts.Length > 0)
             {
-                Textua.Text = " / ";
+                string lastPart = parts[parts.Length - 1];
+
+                if (lastPart == "%" || lastPart == "%" || lastPart == "+" || lastPart == "*")
+                {
+                    kalkulo_mota = "/";
+                    parts[parts.Length - 1] = " / ";
+                    Textua.Text = string.Join(" ", parts);
+                }
+                else
+                {
+                    Textua.Text += " / ";
+                }
             }
 
         }
@@ -183,128 +187,108 @@ namespace Ariketa7
         private void Button_Kenketa(object sender, RoutedEventArgs e)
         {
             string text = Textua.Text;
-            string[] parts = text.Split();
-            string lastPart = parts[parts.Length - 1];
+            string[] parts = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (!lastPart.Equals("-"))
+            if (parts.Length > 0)
             {
-                kalkulo_mota = "-";
-                parts[parts.Length - 1] = " - ";
-                Textua.Text = string.Join(" ", parts);
-            }
-            else
-            {
-                Textua.Text = " - ";
+                string lastPart = parts[parts.Length - 1];
+
+                if (lastPart == "/" || lastPart == "%" || lastPart == "+" || lastPart == "*")
+                {
+                    kalkulo_mota = "-";
+                    parts[parts.Length - 1] = " - ";
+                    Textua.Text = string.Join(" ", parts);
+                }
+                else
+                {
+                    Textua.Text += " - ";
+                }
             }
         }
 
         private void Button_Biderketa(object sender, RoutedEventArgs e)
         {
             string text = Textua.Text;
-            string[] parts = text.Split();
-            string lastPart = parts[parts.Length - 1];
+            string[] parts = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (!lastPart.Equals("x"))
+            if (parts.Length > 0)
             {
-                kalkulo_mota = "x";
-                parts[parts.Length - 1] = " x ";
-                Textua.Text = string.Join(" ", parts);
-            }
-            else
-            {
-                Textua.Text = " x ";
+                string lastPart = parts[parts.Length - 1];
+
+                if (lastPart == "/" || lastPart == "-" || lastPart == "+" || lastPart == "%")
+                {
+                    kalkulo_mota = "*";
+                    parts[parts.Length - 1] = " * ";
+                    Textua.Text = string.Join(" ", parts);
+                }
+                else
+                {
+                    Textua.Text += " * ";
+                }
             }
         }
 
         private void Button_Gehiketa(object sender, RoutedEventArgs e)
         {
             string text = Textua.Text;
-            string[] parts = text.Split();
-            string lastPart = parts[parts.Length - 1];
+            string[] parts = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (!lastPart.Equals("+"))
+            if (parts.Length > 0)
             {
-                kalkulo_mota = "+";
-                parts[parts.Length - 1] = " + ";
-                Textua.Text = string.Join(" ", parts);
-            }
-            else
-            {
-                Textua.Text = " + ";
+                string lastPart = parts[parts.Length - 1];
+
+                if (lastPart == "/" || lastPart == "-" || lastPart == "%" || lastPart == "*")
+                {
+                    kalkulo_mota = "+";
+                    parts[parts.Length - 1] = " + ";
+                    Textua.Text = string.Join(" ", parts);
+                }
+                else
+                {
+                    Textua.Text += " + ";
+                }
             }
         }
 
         private void Button_Erantzuna(object sender, RoutedEventArgs e)
         {
-
+            kalkuloa();
         }
 
         private void Button_Portzentaila(object sender, RoutedEventArgs e)
         {
             string text = Textua.Text;
-            string[] parts = text.Split();
-            string lastPart = parts[parts.Length - 1];
+            string[] parts = text.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (!lastPart.Equals("%"))
+            if (parts.Length > 0)
             {
-                kalkulo_mota = "%";
-                parts[parts.Length - 1] = " % ";
-                Textua.Text = string.Join(" ", parts);
-            }
-            else
-            {
-                Textua.Text = " % ";
+                string lastPart = parts[parts.Length - 1];
+
+                if (lastPart == "/" || lastPart == "-" || lastPart == "+" || lastPart == "*")
+                {
+                    kalkulo_mota = "%";
+                    parts[parts.Length - 1] = " % ";
+                    Textua.Text = string.Join(" ", parts);
+                }
+                else
+                {
+                    Textua.Text += " % ";
+                }
             }
         }
 
         private void kalkuloa() {
             string kalkulo= Textua.Text;
-            string kalkulo2 = "";
-            string[] parts = kalkulo.Split();
-
-            double zenb1 = 0;
-            double zenb2 = 0;
 
 
-            for (int x  = 0; x  < parts.Length-1; x ++)
-            {
-                string part1 = parts[x].Trim();
-                if (part1.Equals("%"))
-                {
-                   zenb1= double.Parse(parts[x - 1]);
-                   kalkulo2 += (zenb1 / 100).ToString();
+            kalkulo = Regex.Replace(kalkulo, @"(\d+(\.\d+)?)\s*%", "($1/100)");
 
-                }
-                else if (part1.Equals("/") && part1.Equals("x") && part1.Equals("-") && part1.Equals("+"))
-                {
-                    kalkulo2 +=  parts[x];
-                }
-            }
-            parts= kalkulo2.Split();
+            // Calcula el resultado
+            var result = new DataTable().Compute(kalkulo, null);
 
-            for (int a = 0; a < parts.Length - 1; a++)
-            {
-                string part2 = parts[a].Trim();
-                if (part2.Equals("x") || part2.Equals("/"))
-                {
-                    zenb1 = double.Parse(parts[a - 1]);
-                    zenb2 = double.Parse(parts[a + 1]);
+            // Muestra el resultado en el TextBox
+            Textua.Text = result.ToString();
 
-                    if (part2.Equals("x"))
-                    {
-                        kalkulo2 += (zenb1 * zenb2).ToString();
-                    }
-                    else if (part2.Equals("/"))
-                    {
-                        kalkulo2 += (zenb1 / zenb2).ToString();
-                    }
-
-                }
-                else if (part2.Equals("-") && part2.Equals("+"))
-                {
-                    kalkulo2 += parts[a-1]+ part2;
-                }
-            }
         }
     }
 }

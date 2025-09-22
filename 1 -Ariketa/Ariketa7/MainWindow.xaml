@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ariketa7"
         mc:Ignorable="d"
-        Title="MainWindow" Height="280" Width="300">
+        Title="MainWindow" Height="280" Width="340">
     <Grid>
         <TextBox x:Name="Textua" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="0." VerticalAlignment="Top" Width="268" Height="28" Background="#FFF5FF3C" FontSize="18" TextAlignment="Right" FontWeight="Bold"/>
         
@@ -29,6 +29,7 @@
         <Button Content="+" HorizontalAlignment="Left" Margin="256,159,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Gehiketa"/>
         <Button Content="=" HorizontalAlignment="Left" Margin="194,197,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Erantzuna"/>
         <Button Content="%" HorizontalAlignment="Left" Margin="256,197,0,0" VerticalAlignment="Top" Width="30" Height="30"  Click="Button_Portzentaila"/>
+        <Label x:Name="Ultimo" Content="" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
