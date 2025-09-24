@@ -31,8 +31,9 @@ namespace Ariketa8
             Hoy.Text = fecha_hora_dividir[0];
             Hora_Hoy.Text = fecha_hora_dividir[1];
 
-            WindowSuma a = new WindowSuma();
-            WindowSuma2 b = new WindowSuma2();
+            WindowGeiketa a = new WindowGeiketa();
+            WindowGeiketa2 b = new WindowGeiketa2();
+            WindowDiferencia c = new WindowDiferencia();
             a.ShowDialog();
 
             if (a.DialogResult == true)
@@ -47,18 +48,29 @@ namespace Ariketa8
 
                     Suma_Fecha.Text = "Fecha Inicio: "+ fecha + ", Meses a sumar: "+meses+", Nueva Fecha: "+ fecha_suma[0];
 
+                    c.ShowDialog();
+                    if (c.DialogResult==true)
+                    {
+                        string diferencia = c.TextoIngresado;
+                        Diferencia_Fecha.Text = diferencia;
+                    }
                 }
             }
         }
 
-        private void Suma_Fecha_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Limpiar(object sender, RoutedEventArgs e)
         {
-
+            Ahora.Clear();
+            Hoy.Clear();
+            Hora_Hoy.Clear();
+            Suma_Fecha.Clear();
+            Diferencia_Fecha.Clear();
         }
     }
 }

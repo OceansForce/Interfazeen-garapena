@@ -4,7 +4,6 @@ F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\Ariketa8\obj\Debug\net9.0-wind
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\Ariketa8\obj\Debug\net9.0-windows\Ariketa8_MarkupCompile.cache
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\Ariketa8\obj\Debug\net9.0-windows\Ariketa8_MarkupCompile.lref
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\MainWindow.g.cs
-F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowSuma.g.cs
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\App.g.cs
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8_MarkupCompile.cache
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8_MarkupCompile.lref
@@ -14,7 +13,6 @@ F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\bin\Debug\n
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\bin\Debug\net9.0-windows\Ariketa8.dll
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\bin\Debug\net9.0-windows\Ariketa8.pdb
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\MainWindow.baml
-F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowSuma.baml
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8.g.resources
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8.GeneratedMSBuildEditorConfig.editorconfig
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8.AssemblyInfoInputs.cache
@@ -26,5 +24,9 @@ F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\n
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8.pdb
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\Ariketa8.genruntimeconfig.cache
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\ref\Ariketa8.dll
-F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowSuma2.g.cs
-F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowSuma2.baml
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowGeiketa.g.cs
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowGeiketa2.g.cs
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowGeiketa.baml
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowGeiketa2.baml
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowDiferencia.g.cs
+F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\obj\Debug\net9.0-windows\WindowDiferencia.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 F:\Goi Maila 2 (Apicaciones)\Interfazeen garapena\2-Ariketa\Ariketa8\App.xaml
-3-1777497909
+4-325994608
 
-6-1067350607
+7851158022
 200-44685031
-MainWindow.xaml;WindowSuma.xaml;WindowSuma2.xaml;
+MainWindow.xaml;WindowDiferencia.xaml;WindowGeiketa.xaml;WindowGeiketa2.xaml;
 
 False
 

@@ -16,11 +16,11 @@
         <TextBox x:Name="Ahora" HorizontalAlignment="Left" Margin="164,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543"/>
         <TextBox x:Name="Hoy"  HorizontalAlignment="Left" Margin="164,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543"/>
         <TextBox x:Name="Hora_Hoy" HorizontalAlignment="Left" Margin="164,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543"/>
-        <TextBox x:Name="Suma_Fecha" HorizontalAlignment="Left" Margin="164,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543" TextChanged="Suma_Fecha_TextChanged"/>
+        <TextBox x:Name="Suma_Fecha" HorizontalAlignment="Left" Margin="164,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543"/>
         <TextBox x:Name="Diferencia_Fecha" HorizontalAlignment="Left" Margin="164,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="543"/>
 
-        <Button Content="Salir" HorizontalAlignment="Left" Margin="634,332,0,0" VerticalAlignment="Top" Width="73" Height="30"/>
-        <Button Content="Limpiar" HorizontalAlignment="Left" Margin="480,332,0,0" VerticalAlignment="Top" Height="30" Width="73" Click="Button_Click"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="634,332,0,0" VerticalAlignment="Top" Width="73" Height="30" Click="Button_Click_1"/>
+        <Button Content="Limpiar" HorizontalAlignment="Left" Margin="480,332,0,0" VerticalAlignment="Top" Height="30" Width="73" Click="Button_Limpiar"/>
         <Button Content="Ejecutar" HorizontalAlignment="Left" Margin="327,332,0,0" VerticalAlignment="Top" Height="30" Width="73" Click="Button_Ejecutar"/>
 
     </Grid>

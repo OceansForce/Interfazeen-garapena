@@ -3,112 +3,151 @@
   "WorkspaceRootPath": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowgeiketa2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowgeiketa2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowgeiketa2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowgeiketa2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowgeiketa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowgeiketa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowgeiketa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowgeiketa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowdiferencia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowdiferencia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowdiferencia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowdiferencia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowsuma.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowsuma.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowsuma2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowsuma2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowsuma2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowsuma2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|f:\\goi maila 2 (apicaciones)\\interfazeen garapena\\2-ariketa\\ariketa8\\windowsuma.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowsuma.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 384,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WindowSuma2.xaml",
-              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma2.xaml",
-              "RelativeDocumentMoniker": "WindowSuma2.xaml",
-              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma2.xaml",
-              "RelativeToolTip": "WindowSuma2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-22T11:48:54.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WindowSuma.xaml.cs",
-              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma.xaml.cs",
-              "RelativeDocumentMoniker": "WindowSuma.xaml.cs",
-              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma.xaml.cs",
-              "RelativeToolTip": "WindowSuma.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T11:29:43.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-22T11:26:46.656Z",
+              "WhenOpened": "2025-09-24T05:59:43.297Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwC8AAAB5AAAAAAAAAA==",
+              "Title": "WindowGeiketa2.xaml.cs",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml.cs",
+              "RelativeDocumentMoniker": "WindowGeiketa2.xaml.cs",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml.cs",
+              "RelativeToolTip": "WindowGeiketa2.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T11:26:46.373Z",
+              "WhenOpened": "2025-09-24T06:12:06.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowSuma2.xaml.cs",
-              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma2.xaml.cs",
-              "RelativeDocumentMoniker": "WindowSuma2.xaml.cs",
-              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma2.xaml.cs",
-              "RelativeToolTip": "WindowSuma2.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowB8AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "WindowDiferencia.xaml.cs",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowDiferencia.xaml.cs",
+              "RelativeDocumentMoniker": "WindowDiferencia.xaml.cs",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowDiferencia.xaml.cs",
+              "RelativeToolTip": "WindowDiferencia.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvzQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T11:51:35.414Z",
+              "WhenOpened": "2025-09-24T06:19:35.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WindowSuma.xaml",
-              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma.xaml",
-              "RelativeDocumentMoniker": "WindowSuma.xaml",
-              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowSuma.xaml",
-              "RelativeToolTip": "WindowSuma.xaml",
+              "Title": "WindowDiferencia.xaml",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowDiferencia.xaml",
+              "RelativeDocumentMoniker": "WindowDiferencia.xaml",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowDiferencia.xaml",
+              "RelativeToolTip": "WindowDiferencia.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-22T11:28:47.923Z",
+              "WhenOpened": "2025-09-24T06:17:04.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:13:53.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowGeiketa2.xaml",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml",
+              "RelativeDocumentMoniker": "WindowGeiketa2.xaml",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml",
+              "RelativeToolTip": "WindowGeiketa2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T06:09:23.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowGeiketa.xaml.cs",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa.xaml.cs",
+              "RelativeDocumentMoniker": "WindowGeiketa.xaml.cs",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa.xaml.cs",
+              "RelativeToolTip": "WindowGeiketa.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:07:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowGeiketa.xaml",
+              "DocumentMoniker": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa.xaml",
+              "RelativeDocumentMoniker": "WindowGeiketa.xaml",
+              "ToolTip": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\WindowGeiketa.xaml",
+              "RelativeToolTip": "WindowGeiketa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T06:07:10.091Z",
               "EditorCaption": ""
             }
           ]
