@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Hollow.jpg" />
+    <None Remove="Hornet.jpg" />
+    <None Remove="Khorne.jpg" />
+    <None Remove="Knight.jpg" />
+    <None Remove="Nurgle.jpg" />
+    <None Remove="sinch.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hollow.jpg" />
+    <Resource Include="Hornet.jpg" />
+    <Resource Include="Khorne.jpg" />
+    <Resource Include="Knight.jpg" />
+    <Resource Include="Nurgle.jpg" />
+    <Resource Include="sinch.jpg" />
+  </ItemGroup>
+
+</Project>

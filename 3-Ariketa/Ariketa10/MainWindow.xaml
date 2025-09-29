@@ -1,0 +1,34 @@
+﻿<Window x:Class="Ariketa10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ariketa10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="MIS IMAGENES" HorizontalAlignment="Left" Margin="336,38,0,0" VerticalAlignment="Top"/>
+        <Label Content="1. Fila" HorizontalAlignment="Left" Margin="49,87,0,0" VerticalAlignment="Top"/>
+        <Label Content="2. Fila" HorizontalAlignment="Left" Margin="49,199,0,0" VerticalAlignment="Top"/>
+        
+        <CheckBox x:Name="check4" Content="Imagen 4" HorizontalAlignment="Left" Margin="49,245,0,0" VerticalAlignment="Top" Checked="check4_Checked" Unchecked="check4_Unchecked"/>
+        <CheckBox x:Name="check5" Content="Imagen 5" HorizontalAlignment="Left" Margin="49,276,0,0" VerticalAlignment="Top" Checked="check5_Checked" Unchecked="check5_Unchecked"/>
+        <CheckBox x:Name="check6" Content="Imagen 6" HorizontalAlignment="Left" Margin="49,309,0,0" VerticalAlignment="Top" Checked="check6_Checked" Unchecked="check6_Unchecked"/>
+        
+        <ComboBox x:Name="combobox" HorizontalAlignment="Left" Margin="49,118,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="combobox_SelectionChanged">
+            <ComboBoxItem >Imagen 1</ComboBoxItem>
+            <ComboBoxItem >Imagen 2</ComboBoxItem>
+            <ComboBoxItem >Imagen 3</ComboBoxItem>
+        </ComboBox>
+
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="100" Margin="261,100,0,0" VerticalAlignment="Top" Width="100" Source="/Hollow.jpg" Visibility="Hidden"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="100" Margin="438,100,0,0" VerticalAlignment="Top" Width="100" Source="/Hornet.jpg" Visibility="Hidden"/>
+        <Image x:Name="img3" HorizontalAlignment="Left" Height="100" Margin="598,100,0,0" VerticalAlignment="Top" Width="100" Source="/Nurgle.jpg" Visibility="Hidden"/>
+        <Image x:Name="img4" HorizontalAlignment="Left" Height="100" Margin="261,225,0,0" VerticalAlignment="Top" Width="100" Source="/Knight.jpg" Visibility="Hidden"/>
+        <Image x:Name="img5" HorizontalAlignment="Left" Height="100" Margin="438,225,0,0" VerticalAlignment="Top" Width="100" Source="/sinch.jpg" Visibility="Hidden"/>
+        <Image x:Name="img6" HorizontalAlignment="Left" Height="100" Margin="598,225,0,0" VerticalAlignment="Top" Width="100" Source="/Khorne.jpg" Visibility="Hidden"/>
+
+        <Button Content="SALIR" HorizontalAlignment="Left" Margin="527,379,0,0" VerticalAlignment="Top" Height="29" Width="212" Click="Button_Click"/>
+
+    </Grid>
+</Window>
