@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ariketa13"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="165" Width="335">
+    <Grid VerticalAlignment="Top">
+        <Menu Height="165">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Salir" Click="Salir"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Editar">
+                <MenuItem Header="Cortar  Ctrl+X" Click="Cortar"></MenuItem>
+                <MenuItem Header="Copiar  Ctrl+C" Click="Copiar"></MenuItem>
+                <MenuItem Header="Pegar  Ctrl+V" Click="Pegar"></MenuItem>
+                <MenuItem Header="Eliminar  Del" Click="Eliminar"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Fuente">
+                <MenuItem Header="Arial" Click="Arial"></MenuItem>
+                <MenuItem Header="Courier" Click="Courier"></MenuItem>
+                <MenuItem Header="Impact" Click="Impact"></MenuItem>
+                <MenuItem Header="Symbol" Click="Symbol"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="157,47,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
+
 
     </Grid>
 </Window>
