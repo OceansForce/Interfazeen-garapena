@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Berria" Content=""/>
+        <ListView x:Name="Lista" Margin="10" Height="350">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Titulua" DisplayMemberBinding="{Binding Titulua}" Width="450"/>
+                    <GridViewColumn Header="Lehentasuna" DisplayMemberBinding="{Binding Lehentasuna}" Width="100"/>
+                    <GridViewColumn Header="Azken eguna" DisplayMemberBinding="{Binding Azken_eguna}" Width="100"/>
+                    <GridViewColumn Header="Egina" DisplayMemberBinding="{Binding Egina}" Width="80"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Berria" HorizontalAlignment="Left" Margin="538,392,0,0" VerticalAlignment="Top" Click="Button_Berria_sortu" />
+        <Button Content="Editatu" HorizontalAlignment="Left" Margin="580,392,0,0" VerticalAlignment="Top" Click="Button_editatu"/>
+        <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="630,392,0,0" VerticalAlignment="Top" Click="Button_Ezabatu"/>
+        <Button Content="Irten" HorizontalAlignment="Left" Margin="680,392,0,0" VerticalAlignment="Top" Click="Button_irten"/>
+
     </Grid>
 </Window>

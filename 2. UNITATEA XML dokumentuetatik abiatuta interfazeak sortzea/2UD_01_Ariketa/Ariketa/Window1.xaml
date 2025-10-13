@@ -1,0 +1,23 @@
+﻿<Window x:Class="Ariketa.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ariketa"
+        mc:Ignorable="d"
+        Title="Window1" Height="300" Width="520">
+    <Grid>
+        <Label Content="Tituloa:" HorizontalAlignment="Left" Margin="70,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tituloa" HorizontalAlignment="Left" Margin="70,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300"/>
+
+        <Label Content="Lehentasuna:" HorizontalAlignment="Left" Margin="70,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lehentasuna" HorizontalAlignment="Left" Margin="70,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+
+        <Label Content="Azken eguna" HorizontalAlignment="Left" Margin="300,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="data" HorizontalAlignment="Left" Margin="300,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        
+        <CheckBox x:Name="egina" Content="Egina" HorizontalAlignment="Left" Margin="401,64,0,0" VerticalAlignment="Top"/>
+    
+        <Button x:Name="gorde" Content="Gorde" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Width="75" Click="gorde_Click"/>
+    </Grid>
+</Window>

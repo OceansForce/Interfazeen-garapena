@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\Ariketa8.csproj": {}
+    "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\Ariketa8.csproj": {}
   },
   "projects": {
-    "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\Ariketa8.csproj": {
+    "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\Ariketa8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\Ariketa8.csproj",
+        "projectUniqueName": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\Ariketa8.csproj",
         "projectName": "Ariketa8",
-        "projectPath": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\Ariketa8.csproj",
+        "projectPath": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\Ariketa8.csproj",
         "packagesPath": "C:\\Users\\ik012982i18\\.nuget\\packages\\",
-        "outputPath": "F:\\Goi Maila 2 (Apicaciones)\\Interfazeen garapena\\2-Ariketa\\Ariketa8\\obj\\",
+        "outputPath": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
