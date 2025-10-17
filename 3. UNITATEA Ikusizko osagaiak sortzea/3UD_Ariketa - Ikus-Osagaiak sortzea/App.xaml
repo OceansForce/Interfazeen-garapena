@@ -1,0 +1,9 @@
+﻿<Application x:Class="_3UD_Ariketa___Ikus_Osagaiak_sortzea.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_3UD_Ariketa___Ikus_Osagaiak_sortzea"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
