@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "3UD_Ariketa - Ikus-Osagaiak sortzea/1.0.0": {
+        "runtime": {
+          "3UD_Ariketa - Ikus-Osagaiak sortzea.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "3UD_Ariketa - Ikus-Osagaiak sortzea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

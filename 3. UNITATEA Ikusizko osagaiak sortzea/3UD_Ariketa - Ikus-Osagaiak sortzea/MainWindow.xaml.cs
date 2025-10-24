@@ -20,5 +20,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
         {
             InitializeComponent();
         }
+
+      
     }
 }

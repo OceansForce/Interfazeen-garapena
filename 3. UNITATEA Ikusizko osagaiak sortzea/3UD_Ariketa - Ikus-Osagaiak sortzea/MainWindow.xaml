@@ -10,14 +10,14 @@
         <TabControl>
             <TabItem Header="Autobusa">
                 <Grid>
-                    
+                    <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Trena">
-                
+
             </TabItem>
             <TabItem Header="Hegazkina">
-               
+
             </TabItem>
         </TabControl>
 

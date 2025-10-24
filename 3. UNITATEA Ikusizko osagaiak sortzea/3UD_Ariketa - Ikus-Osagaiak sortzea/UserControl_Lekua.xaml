@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="_3UD_Ariketa___Ikus_Osagaiak_sortzea.UserControl_Lekua"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_3UD_Ariketa___Ikus_Osagaiak_sortzea"
+             mc:Ignorable="d" BorderBrush="#FF1478FF" Height="188" Width="650">
+    <Grid Margin="0,0,0,10">
+        <Button x:Name="botoia1" Content="Lekua 1" HorizontalAlignment="Left" Margin="526,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia1_Click"/>
+        <Button x:Name="botoia2" Content="Lekua 2" HorizontalAlignment="Left" Margin="526,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia2_Click"/>
+        <Button x:Name="botoia3" Content="Lekua 3" HorizontalAlignment="Left" Margin="394,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia3_Click"/>
+        <Button x:Name="botoia4" Content="Lekua 4" HorizontalAlignment="Left" Margin="394,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia4_Click"/>
+        <Button x:Name="botoia5" Content="Lekua 5" HorizontalAlignment="Left" Margin="268,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia5_Click"/>
+        <Button x:Name="botoia6" Content="Lekua 6" HorizontalAlignment="Left" Margin="268,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia6_Click"/>
+        <Button x:Name="botoia7" Content="Lekua 7" HorizontalAlignment="Left" Margin="142,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia7_Click"/>
+        <Button x:Name="botoia8" Content="Lekua 8" HorizontalAlignment="Left" Margin="142,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia8_Click"/>
+        <Button x:Name="botoia9" Content="Lekua 9" HorizontalAlignment="Left" Margin="24,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia9_Click"/>
+        <Button x:Name="botoia10" Content="Lekua 10" HorizontalAlignment="Left" Margin="24,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia10_Click"/>
+
+    </Grid>
+</UserControl>
