@@ -24,3 +24,29 @@ D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.g.cs
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.baml
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\bin\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.exe
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\bin\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.deps.json
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\bin\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.runtimeconfig.json
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\bin\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.dll
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\bin\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.pdb
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.g.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\UserControl_Lekua.g.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\App.g.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea_MarkupCompile.cache
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea_MarkupCompile.lref
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.baml
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\MainWindow.baml
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\UserControl_Lekua.baml
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.g.resources
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.AssemblyInfoInputs.cache
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.AssemblyInfo.cs
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.csproj.CoreCompileInputs.cache
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.sourcelink.json
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.dll
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\refint\3UD_Ariketa - Ikus-Osagaiak sortzea.dll
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.pdb
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\3UD_Ariketa - Ikus-Osagaiak sortzea.genruntimeconfig.cache
+D:\Clase\Interfazeen-garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\ref\3UD_Ariketa - Ikus-Osagaiak sortzea.dll

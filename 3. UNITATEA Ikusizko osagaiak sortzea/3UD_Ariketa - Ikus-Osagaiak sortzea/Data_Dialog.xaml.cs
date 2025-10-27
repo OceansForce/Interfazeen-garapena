@@ -50,7 +50,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
 
         private void Ezeztatu_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            this.DialogResult = false;
         }
     }
 }
