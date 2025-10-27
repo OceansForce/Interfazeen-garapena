@@ -22,3 +22,5 @@ D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\UserControl_Lekua.g.cs
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\UserControl_Lekua.baml
 D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.g.cs
+D:\Interfazeen garapena\3. UNITATEA Ikusizko osagaiak sortzea\3UD_Ariketa - Ikus-Osagaiak sortzea\obj\Debug\net9.0-windows\Data_Dialog.baml

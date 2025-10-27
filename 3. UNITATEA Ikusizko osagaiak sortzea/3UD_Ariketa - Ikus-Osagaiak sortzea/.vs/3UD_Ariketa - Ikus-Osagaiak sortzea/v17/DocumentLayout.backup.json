@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\data_dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:data_dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\data_dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:data_dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\usercontrol_lekua.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:usercontrol_lekua.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\usercontrol_lekua.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:usercontrol_lekua.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\usercontrol_lekua.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|solutionrelative:usercontrol_lekua.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D764151-D5A1-43D2-9EFC-5B2F0990149C}|3UD_Ariketa - Ikus-Osagaiak sortzea.csproj|d:\\interfazeen garapena\\3. unitatea ikusizko osagaiak sortzea\\3ud_ariketa - ikus-osagaiak sortzea\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,37 +34,62 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Data_Dialog.xaml.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\Data_Dialog.xaml.cs",
+              "RelativeDocumentMoniker": "Data_Dialog.xaml.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\Data_Dialog.xaml.cs",
+              "RelativeToolTip": "Data_Dialog.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:07:09.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data_Dialog.xaml",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\Data_Dialog.xaml",
+              "RelativeDocumentMoniker": "Data_Dialog.xaml",
+              "ToolTip": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\Data_Dialog.xaml",
+              "RelativeToolTip": "Data_Dialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T12:00:19.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T11:29:18.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserControl_Lekua.xaml.cs",
               "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\UserControl_Lekua.xaml.cs",
               "RelativeDocumentMoniker": "UserControl_Lekua.xaml.cs",
               "ToolTip": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\UserControl_Lekua.xaml.cs",
               "RelativeToolTip": "UserControl_Lekua.xaml.cs",
-              "ViewState": "AgIAACABAAAAAAAAAAAAAPcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEoBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T11:10:53.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserControl_Lekua.xaml",
               "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\UserControl_Lekua.xaml",
               "RelativeDocumentMoniker": "UserControl_Lekua.xaml",
@@ -68,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Interfazeen garapena\\3. UNITATEA Ikusizko osagaiak sortzea\\3UD_Ariketa - Ikus-Osagaiak sortzea\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

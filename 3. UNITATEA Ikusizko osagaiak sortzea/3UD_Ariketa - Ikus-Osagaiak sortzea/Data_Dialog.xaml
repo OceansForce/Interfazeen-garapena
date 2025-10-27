@@ -1,0 +1,16 @@
+﻿<Window x:Class="_3UD_Ariketa___Ikus_Osagaiak_sortzea.Data_Dialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3UD_Ariketa___Ikus_Osagaiak_sortzea"
+        mc:Ignorable="d"
+        Title="Data_Dialog" Height="135" Width="421">
+    <Grid>
+        <Label Content="Data: "  HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="41"/>
+        <TextBox x:Name="fecha" HorizontalAlignment="Left" Margin="56,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" Height="26"/>
+        <Button Content="Ongi" HorizontalAlignment="Left" Margin="338,40,0,0" VerticalAlignment="Top" Width="50" Click="Ongi_Click"/>
+        <Button Content="Ezeztatu" HorizontalAlignment="Left" Margin="338,72,0,0" VerticalAlignment="Top" Width="50" Click="Ezeztatu_Click"/>
+
+    </Grid>
+</Window>

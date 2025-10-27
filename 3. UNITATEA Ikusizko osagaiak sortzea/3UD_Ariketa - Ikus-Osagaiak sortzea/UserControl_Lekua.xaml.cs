@@ -35,194 +35,292 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
         public bool Lekua10Okatuta { get; set; } = false;
 
         public string jsonKokapena;
-        public Dictionary<string, bool> json;
+        public Dictionary<string, List<LekuaData>> json;
+        Data_Dialog dataDialog = new Data_Dialog();
+
+        public static readonly DependencyProperty JsonFileNameProperty =
+        DependencyProperty.Register("JsonFileName", typeof(string), typeof(UserControl_Lekua));
+
+        public string JsonFileName
+        {
+            get { return (string)GetValue(JsonFileNameProperty); }
+            set { SetValue(JsonFileNameProperty, value); }
+        }
+
+        public class LekuaData
+        {
+            public bool ocupatuta { get; set; }
+            public string data { get; set; }
+        }
 
         public UserControl_Lekua()
         {
             InitializeComponent();
 
-            string jsonPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bus.json");
-            jsonKokapena = File.ReadAllText(jsonPath);
-            json = JsonSerializer.Deserialize<Dictionary<string, bool>>(jsonKokapena);
-
-            botoiakEguneratu();
+            if (!string.IsNullOrEmpty(this.JsonFileName))
+            {
+                string jsonPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, this.JsonFileName);
+                jsonKokapena = File.ReadAllText(jsonPath);
+                json = JsonSerializer.Deserialize<Dictionary<string, List<LekuaData>>>(jsonKokapena);
+                botoiakEguneratu();
+            }
         }
 
         private void botoia1_Click(object sender, RoutedEventArgs e)
         {
-            if (!Lekua1Okatuta)
-            {
-                botoia1.Background = Brushes.Red;
-                botoia1.Content = "Lekua 1 okupatuta";
-                Lekua1Okatuta= true;
+            dataDialog.ShowDialog();
+
+            if (!Lekua1Okatuta) {
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia1.Background = Brushes.Red;
+                    botoia1.Content = "Lekua 1 okupatuta";
+                    Lekua1Okatuta = true;
+                    json["Lekua1"][0].data = dataDialog.data.ToString();
+                }
             }
             else {
                 botoia1.Background = Brushes.Green;
                 botoia1.Content = "Lekua 1";
-                Lekua1Okatuta= false;
+                Lekua1Okatuta = false;
+                json["Lekua1"][0].data = "";
             }
-            json["Lekua1"] = Lekua1Okatuta;
-            GordeJSONa();
+
+            json["Lekua1"][0].ocupatuta = Lekua1Okatuta;
+            GordeJSONa(); 
         }
 
         private void botoia2_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua2Okatuta)
             {
-                botoia2.Background = Brushes.Red;
-                botoia2.Content = "Lekua 2 okupatuta";
-                Lekua2Okatuta= true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia2.Background = Brushes.Red;
+                    botoia2.Content = "Lekua 2 okupatuta";
+                    Lekua2Okatuta = true;
+                    json["Lekua2"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia2.Background = Brushes.Green;
                 botoia2.Content = "Lekua 2";
                 Lekua2Okatuta = false;
+                json["Lekua2"][0].data = "";
             }
-            json["Lekua2"] = Lekua2Okatuta;
+
+            json["Lekua2"][0].ocupatuta = Lekua2Okatuta;
             GordeJSONa();
         }
 
         private void botoia3_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua3Okatuta)
             {
-                botoia3.Background = Brushes.Red;
-                botoia3.Content = "Lekua 3 okupatuta";
-                Lekua3Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia3.Background = Brushes.Red;
+                    botoia3.Content = "Lekua 3 okupatuta";
+                    Lekua3Okatuta = true;
+                    json["Lekua3"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia3.Background = Brushes.Green;
                 botoia3.Content = "Lekua 3";
                 Lekua3Okatuta = false;
+                json["Lekua3"][0].data = "";
             }
-            json["Lekua3"] = Lekua3Okatuta;
+
+            json["Lekua3"][0].ocupatuta = Lekua3Okatuta;
             GordeJSONa();
         }
 
         private void botoia4_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua4Okatuta)
             {
-                botoia4.Background = Brushes.Red;
-                botoia4.Content = "Lekua 4 okupatuta";
-                Lekua4Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia4.Background = Brushes.Red;
+                    botoia4.Content = "Lekua 4 okupatuta";
+                    Lekua4Okatuta = true;
+                    json["Lekua4"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia4.Background = Brushes.Green;
                 botoia4.Content = "Lekua 4";
                 Lekua4Okatuta = false;
+                json["Lekua4"][0].data = "";
             }
-            json["Lekua4"] = Lekua4Okatuta;
+
+            json["Lekua4"][0].ocupatuta = Lekua4Okatuta;
             GordeJSONa();
         }
 
         private void botoia5_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua5Okatuta)
             {
-                botoia5.Background = Brushes.Red;
-                botoia5.Content = "Lekua 5 okupatuta";
-                Lekua5Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia5.Background = Brushes.Red;
+                    botoia5.Content = "Lekua 5 okupatuta";
+                    Lekua5Okatuta = true;
+                    json["Lekua5"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia5.Background = Brushes.Green;
                 botoia5.Content = "Lekua 5";
                 Lekua5Okatuta = false;
+                json["Lekua5"][0].data = "";
             }
-            json["Lekua5"] = Lekua5Okatuta;
+
+            json["Lekua5"][0].ocupatuta = Lekua5Okatuta;
             GordeJSONa();
         }
 
         private void botoia6_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua6Okatuta)
             {
-                botoia6.Background = Brushes.Red;
-                botoia6.Content = "Lekua 6 okupatuta";
-                Lekua6Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia6.Background = Brushes.Red;
+                    botoia6.Content = "Lekua 6 okupatuta";
+                    Lekua6Okatuta = true;
+                    json["Lekua6"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia6.Background = Brushes.Green;
                 botoia6.Content = "Lekua 6";
                 Lekua6Okatuta = false;
+                json["Lekua6"][0].data = "";
             }
-            json["Lekua6"] = Lekua6Okatuta;
+
+            json["Lekua6"][0].ocupatuta = Lekua6Okatuta;
             GordeJSONa();
         }
 
         private void botoia7_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua7Okatuta)
             {
-                botoia7.Background = Brushes.Red;
-                botoia7.Content = "Lekua 7 okupatuta";
-                Lekua7Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia7.Background = Brushes.Red;
+                    botoia7.Content = "Lekua 7 okupatuta";
+                    Lekua7Okatuta = true;
+                    json["Lekua7"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia7.Background = Brushes.Green;
                 botoia7.Content = "Lekua 7";
                 Lekua7Okatuta = false;
+                json["Lekua7"][0].data = "";
             }
-            json["Lekua7"] = Lekua7Okatuta;
+
+            json["Lekua7"][0].ocupatuta = Lekua7Okatuta;
             GordeJSONa();
         }
 
         private void botoia8_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua8Okatuta)
             {
-                botoia8.Background = Brushes.Red;
-                botoia8.Content = "Lekua 8 okupatuta";
-                Lekua8Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia8.Background = Brushes.Red;
+                    botoia8.Content = "Lekua 8 okupatuta";
+                    Lekua8Okatuta = true;
+                    json["Lekua8"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia8.Background = Brushes.Green;
                 botoia8.Content = "Lekua 8";
                 Lekua8Okatuta = false;
+                json["Lekua8"][0].data = "";
             }
-            json["Lekua8"] = Lekua8Okatuta;
+
+            json["Lekua8"][0].ocupatuta = Lekua8Okatuta;
             GordeJSONa();
         }
 
         private void botoia9_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua9Okatuta)
             {
-                botoia9.Background = Brushes.Red;
-                botoia9.Content = "Lekua 9 okupatuta";
-                Lekua9Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia9.Background = Brushes.Red;
+                    botoia9.Content = "Lekua 9 okupatuta";
+                    Lekua9Okatuta = true;
+                    json["Lekua9"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia9.Background = Brushes.Green;
                 botoia9.Content = "Lekua 9";
                 Lekua9Okatuta = false;
+                json["Lekua9"][0].data = "";
             }
-            json["Lekua9"] = Lekua9Okatuta;
+
+            json["Lekua9"][0].ocupatuta = Lekua9Okatuta;
+            GordeJSONa();
         }
 
         private void botoia10_Click(object sender, RoutedEventArgs e)
         {
+            dataDialog.ShowDialog();
+
             if (!Lekua10Okatuta)
             {
-                botoia10.Background = Brushes.Red;
-                botoia10.Content = "Lekua 10 okupatuta";
-                Lekua10Okatuta = true;
+                if (dataDialog.DialogResult == true)
+                {
+                    botoia10.Background = Brushes.Red;
+                    botoia10.Content = "Lekua 10 okupatuta";
+                    Lekua10Okatuta = true;
+                    json["Lekua10"][0].data = dataDialog.data.ToString();
+                }
             }
             else
             {
                 botoia10.Background = Brushes.Green;
                 botoia10.Content = "Lekua 10";
                 Lekua10Okatuta = false;
+                json["Lekua10"][0].data = "";
             }
-            json["Lekua10"] = Lekua10Okatuta;
+
+            json["Lekua10"][0].ocupatuta = Lekua10Okatuta;
             GordeJSONa();
         }
 
@@ -230,7 +328,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
         {
             try
             {
-                string jsonPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bus.json");
+                string jsonPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, this.JsonFileName);
                 string jsonString = JsonSerializer.Serialize(json, new JsonSerializerOptions
                 {
                     WriteIndented = true
@@ -250,7 +348,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                 switch (i)
                 {
                     case 1:
-                        if (json["Lekua1"])
+                        if (json["Lekua1"][0].ocupatuta)
                         {
                             botoia1.Background = Brushes.Red;
                             botoia1.Content = "Lekua 1 okupatuta";
@@ -259,7 +357,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
                     
                     case 2:
-                        if (json["Lekua2"])
+                        if (json["Lekua2"][0].ocupatuta)
                         {
                             botoia2.Background = Brushes.Red;
                             botoia2.Content = "Lekua 2 okupatuta";
@@ -268,7 +366,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 3:
-                        if (json["Lekua3"])
+                        if (json["Lekua3"][0].ocupatuta)
                         {
                             botoia3.Background = Brushes.Red;
                             botoia3.Content = "Lekua 3 okupatuta";
@@ -277,7 +375,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 4:
-                        if (json["Lekua4"])
+                        if (json["Lekua4"][0].ocupatuta)
                         {
                             botoia4.Background = Brushes.Red;
                             botoia4.Content = "Lekua 4 okupatuta";
@@ -286,7 +384,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 5:
-                        if (json["Lekua5"])
+                        if (json["Lekua5"][0].ocupatuta)
                         {
                             botoia5.Background = Brushes.Red;
                             botoia5.Content = "Lekua 5 okupatuta";
@@ -295,7 +393,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 6:
-                        if (json["Lekua6"])
+                        if (json["Lekua6"][0].ocupatuta)
                         {
                             botoia6.Background = Brushes.Red;
                             botoia6.Content = "Lekua 6 okupatuta";
@@ -304,7 +402,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 7:
-                        if (json["Lekua7"])
+                        if (json["Lekua7"][0].ocupatuta)
                         {
                             botoia7.Background = Brushes.Red;
                             botoia7.Content = "Lekua 7 okupatuta";
@@ -313,7 +411,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 8:
-                        if (json["Lekua8"])
+                        if (json["Lekua8"][0].ocupatuta)
                         {
                             botoia8.Background = Brushes.Red;
                             botoia8.Content = "Lekua 8 okupatuta";
@@ -322,7 +420,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 9:
-                        if (json["Lekua9"])
+                        if (json["Lekua9"][0].ocupatuta)
                         {
                             botoia9.Background = Brushes.Red;
                             botoia9.Content = "Lekua 9 okupatuta";
@@ -331,7 +429,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea
                         break;
 
                     case 10:
-                        if (json["Lekua10"])
+                        if (json["Lekua10"][0].ocupatuta)
                         {
                             botoia10.Background = Brushes.Red;
                             botoia10.Content = "Lekua 10 okupatuta";

@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:_3UD_Ariketa___Ikus_Osagaiak_sortzea"
              mc:Ignorable="d" BorderBrush="#FF1478FF" Height="188" Width="650">
     <Grid Margin="0,0,0,10">
+
         <Button x:Name="botoia1" Content="Lekua 1" HorizontalAlignment="Left" Margin="526,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia1_Click"/>
         <Button x:Name="botoia2" Content="Lekua 2" HorizontalAlignment="Left" Margin="526,126,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia2_Click"/>
         <Button x:Name="botoia3" Content="Lekua 3" HorizontalAlignment="Left" Margin="394,32,0,0" VerticalAlignment="Top" Height="44" Width="87" Background="Green" Click="botoia3_Click"/>

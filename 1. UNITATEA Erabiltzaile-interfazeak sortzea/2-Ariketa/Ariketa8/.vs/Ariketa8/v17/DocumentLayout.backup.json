@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|d:\\interfazeen garapena\\1. unitatea erabiltzaile-interfazeak sortzea\\2-ariketa\\ariketa8\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|d:\\interfazeen garapena\\1. unitatea erabiltzaile-interfazeak sortzea\\2-ariketa\\ariketa8\\windowgeiketa2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:windowgeiketa2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|d:\\interfazeen garapena\\1. unitatea erabiltzaile-interfazeak sortzea\\2-ariketa\\ariketa8\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B142362-8BA8-45A3-A61D-3FB3D7BE2AA4}|Ariketa8.csproj|d:\\interfazeen garapena\\1. unitatea erabiltzaile-interfazeak sortzea\\2-ariketa\\ariketa8\\windowdiferencia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,15 +46,14 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T05:59:43.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T05:59:43.297Z"
             },
             {
               "$type": "Document",
@@ -64,20 +63,20 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T06:13:53.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WindowGeiketa2.xaml.cs",
               "DocumentMoniker": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml.cs",
               "RelativeDocumentMoniker": "WindowGeiketa2.xaml.cs",
               "ToolTip": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\WindowGeiketa2.xaml.cs",
               "RelativeToolTip": "WindowGeiketa2.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T06:12:06.05Z",
               "EditorCaption": ""
@@ -92,8 +91,7 @@
               "RelativeToolTip": "WindowDiferencia.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwDQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T06:19:35.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T06:19:35.806Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "ToolTip": "D:\\Interfazeen garapena\\1. UNITATEA Erabiltzaile-interfazeak sortzea\\2-Ariketa\\Ariketa8\\WindowDiferencia.xaml",
               "RelativeToolTip": "WindowDiferencia.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T06:17:04.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T06:17:04.141Z"
             },
             {
               "$type": "Document",

@@ -10,14 +10,18 @@
         <TabControl>
             <TabItem Header="Autobusa">
                 <Grid>
-                    <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center" JsonFileName="bus.json"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Trena">
-
+                <Grid>
+                    <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center" JsonFileName="trena.json"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Hegazkina">
-
+                <Grid>
+                    <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center" JsonFileName="hegazkina.json"/>
+                </Grid>
             </TabItem>
         </TabControl>
 
