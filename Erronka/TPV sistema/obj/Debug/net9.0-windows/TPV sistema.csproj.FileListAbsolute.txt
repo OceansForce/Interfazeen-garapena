@@ -1,0 +1,28 @@
+D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\TPV sistema.exe
+D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\TPV sistema.deps.json
+D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\TPV sistema.runtimeconfig.json
+D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\TPV sistema.dll
+D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\TPV sistema.pdb
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\App.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema_MarkupCompile.cache
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema_MarkupCompile.lref
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\MainWindow.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.g.resources
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.AssemblyInfoInputs.cache
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.AssemblyInfo.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.csproj.CoreCompileInputs.cache
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.sourcelink.json
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.dll
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\refint\TPV sistema.dll
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.pdb
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.genruntimeconfig.cache
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\ref\TPV sistema.dll
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Admin.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Erabiltzaile.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Mahia.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Admin.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Erabiltzaile.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Mahia.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -61,7 +61,7 @@ namespace _3UD_Ariketa___Ikus_Osagaiak_sortzea {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/3UD_Ariketa - Ikus-Osagaiak sortzea;component/data_dialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/3UD_Ariketa - Ikus-Osagaiak sortzea;V1.0.0.0;component/data_dialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Data_Dialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

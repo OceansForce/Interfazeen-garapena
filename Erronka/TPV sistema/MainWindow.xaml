@@ -1,0 +1,18 @@
+﻿<Window x:Class="TPV_sistema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TPV_sistema"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="252" Width="330">
+    <Grid>
+        <Label Content="Izena" HorizontalAlignment="Left" Margin="73,50,0,0" VerticalAlignment="Top" Width="43"/>
+        <TextBox HorizontalAlignment="Left" Margin="121,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Pazahitza" HorizontalAlignment="Left" Margin="73,92,0,0" VerticalAlignment="Top" Width="43"/>
+        <TextBox HorizontalAlignment="Left" Margin="121,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="73,139,0,0" VerticalAlignment="Top" Width="168"/>
+
+    </Grid>
+</Window>
