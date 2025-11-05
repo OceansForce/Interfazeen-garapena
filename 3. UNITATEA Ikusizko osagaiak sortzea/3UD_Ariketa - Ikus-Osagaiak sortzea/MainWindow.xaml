@@ -16,6 +16,7 @@
             <TabItem Header="Trena">
                 <Grid>
                     <local:UserControl_Lekua HorizontalAlignment="Center" VerticalAlignment="Center" JsonFileName="trena.json"/>
+
                 </Grid>
             </TabItem>
             <TabItem Header="Hegazkina">

@@ -1,12 +1,42 @@
 {
-  "Lekua1": [{"ocupatuta":false, "data":""}],
-  "Lekua2": [{"ocupatuta":false, "data":""}],
-  "Lekua3": [{"ocupatuta":false, "data":""}],
-  "Lekua4": [{"ocupatuta":false, "data":""}],
-  "Lekua5": [{"ocupatuta":false, "data":""}],
-  "Lekua6": [{"ocupatuta":false, "data":""}],
-  "Lekua7": [{"ocupatuta":false, "data":""}],
-  "Lekua8": [{"ocupatuta":false, "data":""}],
-  "Lekua9": [{"ocupatuta":false, "data":""}],
-  "Lekua10": [{"ocupatuta":false, "data":""}]
+  "Lekua1": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua2": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua3": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua4": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua5": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua6": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua7": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua8": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua9": {
+    "ocupatuta": false,
+    "data": ""
+  },
+  "Lekua10": {
+    "ocupatuta": false,
+    "data": ""
+  }
 }
