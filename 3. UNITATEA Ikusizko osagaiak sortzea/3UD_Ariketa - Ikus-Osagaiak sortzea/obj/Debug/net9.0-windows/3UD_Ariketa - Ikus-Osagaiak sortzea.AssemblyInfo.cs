@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3UD_Ariketa - Ikus-Osagaiak sortzea")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c9badd5c11554ae603de5c328a3fc6af19f86cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8cc10d26b50f7f4ae56b4cfd54417f13ba4f950")]
 [assembly: System.Reflection.AssemblyProductAttribute("3UD_Ariketa - Ikus-Osagaiak sortzea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3UD_Ariketa - Ikus-Osagaiak sortzea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

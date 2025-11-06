@@ -4,9 +4,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TPV_sistema"
-             mc:Ignorable="d" Height="100" Width="100">
+             mc:Ignorable="d" Height="100" Width="100"
+             x:Name="mahiaControl">
     <Grid>
-        <Button x:Name="Mahaia" Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="100" Click="Button_Click"/>
-
+        <Button x:Name="MahiaId" 
+                Content="{Binding id_mahia, StringFormat='Mahia {0}', ElementName=mahiaControl}" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Height="100" 
+                Width="100" 
+                Click="Button_Click"/>
     </Grid>
 </UserControl>

@@ -21,20 +21,19 @@ namespace TPV_sistema
     public partial class Mahia : UserControl
     {
 
-        public static readonly DependencyProperty id_mahaia =
-        DependencyProperty.Register("id_mahia", typeof(string), typeof(Mahia));
+        public static readonly DependencyProperty id_mahiaProperty =
+           DependencyProperty.Register("id_mahia", typeof(string), typeof(Mahia));
 
-        public string mahia_id
+        public string id_mahia
         {
-            get { return (string)GetValue(id_mahaia); }
-            set { SetValue(id_mahaia, value); }
+            get { return (string)GetValue(id_mahiaProperty); }
+            set { SetValue(id_mahiaProperty, value); }
         }
-      
+
 
         public Mahia()
         {
             InitializeComponent();
-            Mahaia.Content = "Mahaia "+ this.mahia_id;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

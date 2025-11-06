@@ -23,5 +23,7 @@ namespace TPV_sistema
         {
             InitializeComponent();
         }
+
+       
     }
 }

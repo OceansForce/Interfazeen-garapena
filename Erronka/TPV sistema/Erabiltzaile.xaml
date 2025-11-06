@@ -10,13 +10,19 @@
         <TabControl>
             <TabItem Header="Erreserba">
                 <Grid>
-                   
+                    <local:Mahia HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1"/>
+                    <local:Mahia HorizontalAlignment="Left" Margin="347,90,347,216" VerticalAlignment="Top" id_mahia="2"/>
+                    <local:Mahia HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3"/>
+                    <local:Mahia HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4"/>
+                    <local:Mahia HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5"/>
+                    <local:Mahia HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6"/>
+
 
                 </Grid>
             </TabItem>
             <TabItem Header="Kontsumoa">
                 <Grid>
-                   
+
                 </Grid>
             </TabItem>
 
