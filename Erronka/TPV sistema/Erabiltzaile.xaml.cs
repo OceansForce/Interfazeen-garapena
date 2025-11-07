@@ -24,6 +24,11 @@ namespace TPV_sistema
             InitializeComponent();
         }
 
-       
+        private void longin_click(object sender, RoutedEventArgs e)
+        {
+            MainWindow login = new MainWindow();
+            login.Show();
+            this.Close();
+        }
     }
 }

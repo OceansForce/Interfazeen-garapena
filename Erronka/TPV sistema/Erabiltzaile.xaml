@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="Erabiltzaile" Height="450" Width="800">
     <Grid>
+  
         <TabControl>
             <TabItem Header="Erreserba">
                 <Grid>
                     <local:Mahia HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1"/>
-                    <local:Mahia HorizontalAlignment="Left" Margin="347,90,347,216" VerticalAlignment="Top" id_mahia="2"/>
+                    <local:Mahia HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2"/>
                     <local:Mahia HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3"/>
                     <local:Mahia HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4"/>
                     <local:Mahia HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5"/>
@@ -22,10 +23,22 @@
             </TabItem>
             <TabItem Header="Kontsumoa">
                 <Grid>
-
+                    <ListBox x:Name="ItemsListBox" Margin="10,68,556,67">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Margin="10,5">
+                                    <Image Source="{Binding Icon}" Width="32" Height="32" Margin="0,0,15,0"/>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="14"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
                 </Grid>
             </TabItem>
 
         </TabControl>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="696,0,0,0" Height="32" Width="72" Click="longin_click"/>
     </Grid>
 </Window>

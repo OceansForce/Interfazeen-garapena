@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPV_sistema"
         mc:Ignorable="d"
-        Title="Admin" Height="467" Width="800">
+        Title="Admin" Height="500" Width="800">
     <Grid>
         <TabControl>
             <TabItem Header="Stocka">
@@ -19,15 +19,19 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Button Content="Berria" HorizontalAlignment="Left" Margin="538,392,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="580,392,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="630,392,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Irten" HorizontalAlignment="Left" Margin="680,392,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Berria" HorizontalAlignment="Left" Margin="527,408,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="567,408,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="613,408,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Irten" HorizontalAlignment="Left" Margin="664,408,0,0" VerticalAlignment="Top"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Erabiltzaileak">
                 <Grid>
-                    <ListView x:Name="Lista2" Margin="10" Height="350">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="396*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView x:Name="Lista2" Margin="8,53,10,53" Height="350" Grid.Column="1">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="Izena" DisplayMemberBinding="{Binding Izena}" Width="400"/>
@@ -36,13 +40,13 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Button Content="Berria" HorizontalAlignment="Left" Margin="538,392,0,0" VerticalAlignment="Top" />
-                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="580,392,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="630,392,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Irten" HorizontalAlignment="Left" Margin="680,392,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Berria" HorizontalAlignment="Left" Margin="538,408,0,0" VerticalAlignment="Top" Grid.Column="1" />
+                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="578,408,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="624,408,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Button Content="Irten" HorizontalAlignment="Left" Margin="675,408,0,0" VerticalAlignment="Top" Grid.Column="1"/>
                 </Grid>
             </TabItem>
-           
+
         </TabControl>
     </Grid>
 </Window>
