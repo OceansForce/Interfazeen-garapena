@@ -35,8 +35,8 @@
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="Izena" DisplayMemberBinding="{Binding Izena}" Width="400"/>
-                                <GridViewColumn Header="Pazahitza" DisplayMemberBinding="{Binding Kantitatea}" Width="175"/>
-                                <GridViewColumn Header="Mota" DisplayMemberBinding="{Binding Prezioa}" Width="175"/>
+                                <GridViewColumn Header="Pazahitza" DisplayMemberBinding="{Binding Pazahitza}" Width="175"/>
+                                <GridViewColumn Header="Mota" DisplayMemberBinding="{Binding Mota}" Width="175"/>
                             </GridView>
                         </ListView.View>
                     </ListView>

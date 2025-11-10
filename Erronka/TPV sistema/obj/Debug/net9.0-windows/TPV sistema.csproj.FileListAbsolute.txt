@@ -67,3 +67,18 @@ D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\wi
 D:\Interfazeen garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\krbcc64.dll
 D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.csproj.AssemblyReference.cache
 D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sist.3F97EA75.Up2Date
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\BouncyCastle.Cryptography.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\Google.Protobuf.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\K4os.Compression.LZ4.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\K4os.Hash.xxHash.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\MySql.Data.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\ZstdSharp.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.csproj.AssemblyReference.cache
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sist.3F97EA75.Up2Date
