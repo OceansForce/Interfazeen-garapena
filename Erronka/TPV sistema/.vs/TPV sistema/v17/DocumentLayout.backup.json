@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\sortu_eta_editatu_era.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:sortu_eta_editatu_era.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\sortu_eta_editatu_era.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:sortu_eta_editatu_era.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\erabiltzaileak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:erabiltzaileak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +34,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Erabiltzaileak.cs",
               "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaileak.cs",
               "RelativeDocumentMoniker": "Erabiltzaileak.cs",
               "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaileak.cs",
               "RelativeToolTip": "Erabiltzaileak.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T19:31:17.853Z",
+              "WhenOpened": "2025-11-11T18:24:19.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwD8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:06:03.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Sortu_eta_editatu_Era.xaml.cs",
+              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Sortu_eta_editatu_Era.xaml.cs",
+              "RelativeDocumentMoniker": "Sortu_eta_editatu_Era.xaml.cs",
+              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Sortu_eta_editatu_Era.xaml.cs",
+              "RelativeToolTip": "Sortu_eta_editatu_Era.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:38:22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sortu_eta_editatu_Era.xaml",
+              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Sortu_eta_editatu_Era.xaml",
+              "RelativeDocumentMoniker": "Sortu_eta_editatu_Era.xaml",
+              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Sortu_eta_editatu_Era.xaml",
+              "RelativeToolTip": "Sortu_eta_editatu_Era.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-11T17:36:30.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Admin.xaml",
               "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml",
               "RelativeDocumentMoniker": "Admin.xaml",
@@ -55,26 +101,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Stock.cs",
-              "RelativeDocumentMoniker": "Stock.cs",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Stock.cs",
-              "RelativeToolTip": "Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:49:16.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Admin.xaml.cs",
               "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
               "RelativeDocumentMoniker": "Admin.xaml.cs",
               "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
               "RelativeToolTip": "Admin.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA3wHYAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T18:55:33.796Z",
               "EditorCaption": ""

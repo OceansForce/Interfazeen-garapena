@@ -32,8 +32,37 @@ namespace TPV_sistema
             datuak_kargatu_erabil();
         }
 
+        private void Button_berria(object sender, RoutedEventArgs e)
+        {
+            Sortu_eta_editatu sortu_window = new Sortu_eta_editatu("", "", "", false);
+           
+            if (sortu_window.ShowDialog() == true)
+            {
+                create_User(sortu_window.erabiltzailea_berria.Izena, sortu_window.erabiltzailea_berria.Pazahitza, sortu_window.erabiltzailea_berria.Mota);
+                datuak_kargatu_erabil();
+            }
+        }
+
+        private void Button_editatu(object sender, RoutedEventArgs e)
+        {
+            if (Lista2.SelectedItem is Erabiltzaileak erabiltzaie ) { 
+
+                Sortu_eta_editatu editatu_window = new Sortu_eta_editatu(erabiltzaie.Izena, erabiltzaie.Pazahitza, erabiltzaie.Mota, true);
+
+                if (editatu_window.ShowDialog() == true)
+                {
+                    string query = $"UPDATE `erabiltzaileak` SET `Izena` = '{editatu_window.erabiltzailea_berria.Izena}', `Pazahitza` = '{editatu_window.erabiltzailea_berria.Pazahitza}', `Mota` = '{editatu_window.erabiltzailea_berria.Mota}' WHERE `erabiltzaileak`.`Izena` = '{erabiltzaie.Izena}';";
+                    msql.ExecuteNonQuery(query);
+                    datuak_kargatu_erabil();
+                }
+            }
+
+        }
+
         private void datuak_kargatu_stock() {
-           DataTable emaitza= GetStock();
+
+            string query = "SELECT Izena, Kantitatea, Prezioa FROM Biltegia";
+            DataTable emaitza= msql.ExecuteQuery(query);
 
             if (emaitza.Rows.Count > 0)
             {
@@ -59,7 +88,9 @@ namespace TPV_sistema
 
         private void datuak_kargatu_erabil()
         {
-            DataTable emaitza = GetUser();
+            string query = "SELECT Izena, Pazahitza, Mota FROM erabiltzaileak";
+
+            DataTable emaitza = msql.ExecuteQuery(query);
 
             if (emaitza.Rows.Count > 0)
             {
@@ -83,44 +114,11 @@ namespace TPV_sistema
 
         }
 
-        public DataTable GetStock()
+        public void create_User(string izena, string pazahitza, string mota)
         {
-            string query = "SELECT Izena, Kantitatea, Prezioa FROM Biltegia";
+            string query = $"INSERT INTO `erabiltzaileak` (`Izena`, `Pazahitza`, `Mota`) VALUES ('{izena}', '{pazahitza}', '{mota}');";
 
-            using (MySqlConnection connection = new MySqlConnection(msql.connectionString))
-            using (MySqlCommand command = new MySqlCommand(query, connection))
-            {
-               
-                connection.Open();
-
-                DataTable dataTable = new DataTable();
-                using (MySqlDataReader reader = command.ExecuteReader())
-                {
-                    dataTable.Load(reader);
-                }
-
-                return dataTable;
-            }
+            msql.ExecuteNonQuery(query);
         }
-        public DataTable GetUser()
-        {
-            string query = "SELECT Izena, Pazahitza, Mota FROM erabiltzaileak";
-
-            using (MySqlConnection connection = new MySqlConnection(msql.connectionString))
-            using (MySqlCommand command = new MySqlCommand(query, connection))
-            {
-
-                connection.Open();
-
-                DataTable dataTable = new DataTable();
-                using (MySqlDataReader reader = command.ExecuteReader())
-                {
-                    dataTable.Load(reader);
-                }
-
-                return dataTable;
-            }
-        }
-
     }
 }

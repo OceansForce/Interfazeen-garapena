@@ -82,3 +82,5 @@ D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\bin\Debug\net9.0-windows\runti
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sistema.csproj.AssemblyReference.cache
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sist.3F97EA75.Up2Date
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.g.cs
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.baml

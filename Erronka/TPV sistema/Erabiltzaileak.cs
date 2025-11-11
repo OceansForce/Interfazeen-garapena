@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TPV_sistema
 {
-    class Erabiltzaileak
+    public class Erabiltzaileak
     {
         public string Izena { get; set; }
         public string Pazahitza { get; set; }
