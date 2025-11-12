@@ -19,10 +19,10 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Button Content="Berria" HorizontalAlignment="Left" Margin="527,408,0,0" VerticalAlignment="Top" />
-                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="567,408,0,0" VerticalAlignment="Top" />
-                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="613,408,0,0" VerticalAlignment="Top"/>
-                    <Button Content="Irten" HorizontalAlignment="Left" Margin="664,408,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Berria" HorizontalAlignment="Left" Margin="527,408,0,0" VerticalAlignment="Top" Click="Button_berria_stock"/>
+                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="567,408,0,0" VerticalAlignment="Top" Click="Button_editatu_stock"/>
+                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="613,408,0,0" VerticalAlignment="Top" Click="Button_Ezabatu_stock"/>
+                    <Button Content="Irten" HorizontalAlignment="Left" Margin="664,408,0,0" VerticalAlignment="Top" Click="Button_irten"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Erabiltzaileak">
@@ -40,10 +40,10 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <Button Content="Berria" HorizontalAlignment="Left" Margin="538,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_berria"/>
-                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="578,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_editatu"/>
-                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="624,408,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-                    <Button Content="Irten" HorizontalAlignment="Left" Margin="675,408,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Button Content="Berria" HorizontalAlignment="Left" Margin="538,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_berria_erabil"/>
+                    <Button Content="Editatu" HorizontalAlignment="Left" Margin="578,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_editatu_erabil"/>
+                    <Button Content="Ezabatu" HorizontalAlignment="Left" Margin="624,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_Ezabatu_erabil"/>
+                    <Button Content="Irten" HorizontalAlignment="Left" Margin="675,408,0,0" VerticalAlignment="Top" Grid.Column="1" Click="Button_irten"/>
                 </Grid>
             </TabItem>
 

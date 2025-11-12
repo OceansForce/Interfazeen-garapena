@@ -14,5 +14,8 @@
     <Compile Update="Sortu_eta_editatu_Era.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Sortu_eta_editatu_Stock.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

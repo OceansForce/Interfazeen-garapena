@@ -32,7 +32,7 @@ namespace TPV_sistema
             datuak_kargatu_erabil();
         }
 
-        private void Button_berria(object sender, RoutedEventArgs e)
+        private void Button_berria_erabil(object sender, RoutedEventArgs e)
         {
             Sortu_eta_editatu sortu_window = new Sortu_eta_editatu("", "", "", false);
            
@@ -43,7 +43,7 @@ namespace TPV_sistema
             }
         }
 
-        private void Button_editatu(object sender, RoutedEventArgs e)
+        private void Button_editatu_erabil(object sender, RoutedEventArgs e)
         {
             if (Lista2.SelectedItem is Erabiltzaileak erabiltzaie ) { 
 
@@ -57,6 +57,54 @@ namespace TPV_sistema
                 }
             }
 
+        }
+
+        private void Button_Ezabatu_erabil(object sender, RoutedEventArgs e)
+        {
+            if (Lista2.SelectedItem is Erabiltzaileak erabiltzaie)
+            {
+                string query = $"DELETE FROM `erabiltzaileak` WHERE `Izena` = '{erabiltzaie.Izena}';";
+                msql.ExecuteNonQuery(query);
+                datuak_kargatu_erabil();
+            }
+        }
+
+        private void Button_berria_stock(object sender, RoutedEventArgs e)
+        {
+            Sortu_eta_editatu_Stock sortu_window = new Sortu_eta_editatu_Stock("", 0, 0, false);
+
+            if (sortu_window.ShowDialog() == true)
+            {
+                create_Stock(sortu_window.stock_berria.Izena, sortu_window.stock_berria.Kantitatea, sortu_window.stock_berria.Prezioa);
+                datuak_kargatu_stock();
+            }
+        }
+
+        private void Button_editatu_stock(object sender, RoutedEventArgs e)
+        {
+            if (Lista1.SelectedItem is Stock stock)
+            {
+
+                Sortu_eta_editatu_Stock editatu_window = new Sortu_eta_editatu_Stock(stock.Izena, stock.Kantitatea, stock.Prezioa, true);
+
+                if (editatu_window.ShowDialog() == true)
+                {
+                    string query = $"UPDATE `biltegia` SET `Izena` = '{editatu_window.stock_berria.Izena}', `Kantitatea` = '{editatu_window.stock_berria.Kantitatea}', `Prezioa` = '{editatu_window.stock_berria.Prezioa}' WHERE `Izena` = '{stock.Izena}';";
+                    msql.ExecuteNonQuery(query);
+                    datuak_kargatu_stock();
+                }
+            }
+
+        }
+
+        private void Button_Ezabatu_stock(object sender, RoutedEventArgs e)
+        {
+            if (Lista1.SelectedItem is Stock stock)
+            {
+                string query = $"DELETE FROM `biltegia` WHERE `Izena` = '{stock.Izena}';";
+                msql.ExecuteNonQuery(query);
+                datuak_kargatu_stock();
+            }
         }
 
         private void datuak_kargatu_stock() {
@@ -119,6 +167,20 @@ namespace TPV_sistema
             string query = $"INSERT INTO `erabiltzaileak` (`Izena`, `Pazahitza`, `Mota`) VALUES ('{izena}', '{pazahitza}', '{mota}');";
 
             msql.ExecuteNonQuery(query);
+        }
+
+        public void create_Stock(string izena, int kantitatea, float prezioa)
+        {
+            string query = $"INSERT INTO `biltegia` (`Izena`, `Kantitatea`, `Prezioa`) VALUES ('{izena}', '{kantitatea}', '{prezioa}');";
+
+            msql.ExecuteNonQuery(query);
+        }
+
+        private void Button_irten(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

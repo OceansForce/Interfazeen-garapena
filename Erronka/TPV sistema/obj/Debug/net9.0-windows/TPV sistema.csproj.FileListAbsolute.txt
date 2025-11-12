@@ -84,3 +84,5 @@ D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Gener
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\TPV sist.3F97EA75.Up2Date
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.g.cs
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.baml
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.g.cs
+D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.baml
