@@ -4,17 +4,16 @@ CREATE TABLE IF NOT EXISTS `Mahiak` (
 	`erreserbatua` BOOLEAN NOT NULL,
 	`data` DATE NOT NULL,
 	`mota` TEXT(65535) NOT NULL,
-	`erabiltzailea` INTEGER,
+	`erabiltzailea` VARCHAR(100),
 	PRIMARY KEY(`id`)
 );
 
 
 CREATE TABLE IF NOT EXISTS `Erabiltzaileak` (
-	`id` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
-	`Izena` TEXT(65535) NOT NULL,
-	`Pazahitza` TEXT(65535) NOT NULL,
-	`Mota` TEXT(65535) NOT NULL,
-	PRIMARY KEY(`id`)
+    `Izena` VARCHAR(100) NOT NULL UNIQUE,
+    `Pazahitza` TEXT(65535) NOT NULL,
+    `Mota` TEXT(65535) NOT NULL,
+    PRIMARY KEY (`Izena`)
 );
 
 
@@ -27,6 +26,5 @@ CREATE TABLE IF NOT EXISTS `Biltegia` (
 );
 
 
-ALTER TABLE `Mahiak`
-ADD FOREIGN KEY(`erabiltzailea`) REFERENCES `Erabiltzaileak`(`id`)
+ALTER TABLE `Mahiak`ADD FOREIGN KEY(`erabiltzailea`) REFERENCES `erabiltzaileak`(`Izena`)
 ON UPDATE NO ACTION ON DELETE NO ACTION;

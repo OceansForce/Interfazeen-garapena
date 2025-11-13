@@ -41,7 +41,7 @@ namespace TPV_sistema
                 }
                 else if (mota == "Erabiltzaile")
                 {
-                    Erabiltzaile erabiltzaile = new Erabiltzaile();
+                    Erabiltzaile erabiltzaile = new Erabiltzaile(izena.Text);
                     erabiltzaile.Show();
                     this.Close();
                 }

@@ -7,17 +7,37 @@
         mc:Ignorable="d"
         Title="Erabiltzaile" Height="450" Width="800">
     <Grid>
-  
+
         <TabControl>
             <TabItem Header="Erreserba">
                 <Grid>
-                    <local:Mahia HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1"/>
-                    <local:Mahia HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2"/>
-                    <local:Mahia HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3"/>
-                    <local:Mahia HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4"/>
-                    <local:Mahia HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5"/>
-                    <local:Mahia HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6"/>
+                    <TabControl>
+                        <TabItem Header="Bazkaria">
+                            <Grid>
+                                <ComboBox x:Name="datak" HorizontalAlignment="Left" Margin="628,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="datak_SelectionChanged">
+                                    
+                                </ComboBox>
 
+                                <local:Mahia x:Name="Mesa1" HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1_Bazkaria"/>
+                                <local:Mahia x:Name="Mesa2" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2_Bazkaria"/>
+                                <local:Mahia x:Name="Mesa3" HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3_Bazkaria"/>
+                                <local:Mahia x:Name="Mesa4" HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4_Bazkaria"/>
+                                <local:Mahia x:Name="Mesa5" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5_Bazkaria"/>
+                                <local:Mahia x:Name="Mesa6" HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6_Bazkaria"/>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Afaria">
+                            <Grid>
+                                <local:Mahia HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1_Afaria"/>
+                                <local:Mahia HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2_Afaria"/>
+                                <local:Mahia HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3_Afaria"/>
+                                <local:Mahia HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4_Afaria"/>
+                                <local:Mahia HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5_Afaria"/>
+                                <local:Mahia HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6_Afaria"/>
+                            </Grid>
+                        </TabItem>
+
+                    </TabControl>
 
                 </Grid>
             </TabItem>
