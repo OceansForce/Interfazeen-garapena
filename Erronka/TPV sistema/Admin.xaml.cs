@@ -51,7 +51,7 @@ namespace TPV_sistema
 
                 if (editatu_window.ShowDialog() == true)
                 {
-                    string query = $"UPDATE `erabiltzaileak` SET `Izena` = '{editatu_window.erabiltzailea_berria.Izena}', `Pazahitza` = '{editatu_window.erabiltzailea_berria.Pazahitza}', `Mota` = '{editatu_window.erabiltzailea_berria.Mota}' WHERE `erabiltzaileak`.`Izena` = '{erabiltzaie.Izena}';";
+                    string query = $"UPDATE `Erabiltzaileak` SET `Izena` = '{editatu_window.erabiltzailea_berria.Izena}', `Pazahitza` = '{editatu_window.erabiltzailea_berria.Pazahitza}', `Mota` = '{editatu_window.erabiltzailea_berria.Mota}' WHERE `Izena` = '{erabiltzaie.Izena}';";
                     msql.ExecuteNonQuery(query);
                     datuak_kargatu_erabil();
                 }
@@ -63,7 +63,7 @@ namespace TPV_sistema
         {
             if (Lista2.SelectedItem is Erabiltzaileak erabiltzaie)
             {
-                string query = $"DELETE FROM `erabiltzaileak` WHERE `Izena` = '{erabiltzaie.Izena}';";
+                string query = $"DELETE FROM `Erabiltzaileak` WHERE `Izena` = '{erabiltzaie.Izena}';";
                 msql.ExecuteNonQuery(query);
                 datuak_kargatu_erabil();
             }
@@ -89,7 +89,7 @@ namespace TPV_sistema
 
                 if (editatu_window.ShowDialog() == true)
                 {
-                    string query = $"UPDATE `biltegia` SET `Izena` = '{editatu_window.stock_berria.Izena}', `Kantitatea` = '{editatu_window.stock_berria.Kantitatea}', `Prezioa` = '{editatu_window.stock_berria.Prezioa}' WHERE `Izena` = '{stock.Izena}';";
+                    string query = $"UPDATE `Biltegia` SET `Izena` = '{editatu_window.stock_berria.Izena}', `Kantitatea` = '{editatu_window.stock_berria.Kantitatea}', `Prezioa` = '{editatu_window.stock_berria.Prezioa}' WHERE `Izena` = '{stock.Izena}';";
                     msql.ExecuteNonQuery(query);
                     datuak_kargatu_stock();
                 }
@@ -101,8 +101,9 @@ namespace TPV_sistema
         {
             if (Lista1.SelectedItem is Stock stock)
             {
-                string query = $"DELETE FROM `biltegia` WHERE `Izena` = '{stock.Izena}';";
+                string query = $"DELETE FROM `Biltegia` WHERE `Izena` = '{stock.Izena}';";
                 msql.ExecuteNonQuery(query);
+
                 datuak_kargatu_stock();
             }
         }
@@ -111,6 +112,7 @@ namespace TPV_sistema
 
             string query = "SELECT Izena, Kantitatea, Prezioa FROM Biltegia";
             DataTable emaitza= msql.ExecuteQuery(query);
+
 
             if (emaitza.Rows.Count > 0)
             {
@@ -126,9 +128,12 @@ namespace TPV_sistema
                     stock.Prezioa = Convert.ToSingle(emaitza.Rows[i]["Prezioa"]);
 
                     stock_taula.Add(stock);
-                    
+
                 }
                 Lista1.ItemsSource = stock_taula;
+            }
+            else { 
+                Lista1.ItemsSource=null;
             }
             
 
@@ -136,7 +141,7 @@ namespace TPV_sistema
 
         private void datuak_kargatu_erabil()
         {
-            string query = "SELECT Izena, Pazahitza, Mota FROM erabiltzaileak";
+            string query = "SELECT Izena, Pazahitza, Mota FROM Erabiltzaileak";
 
             DataTable emaitza = msql.ExecuteQuery(query);
 
@@ -158,20 +163,24 @@ namespace TPV_sistema
                 }
                 Lista2.ItemsSource = erabiltzaileak_taula;
             }
+            else
+            {
+                Lista2.ItemsSource=null;
+            }
 
 
         }
 
         public void create_User(string izena, string pazahitza, string mota)
         {
-            string query = $"INSERT INTO `erabiltzaileak` (`Izena`, `Pazahitza`, `Mota`) VALUES ('{izena}', '{pazahitza}', '{mota}');";
+            string query = $"INSERT INTO `Erabiltzaileak` (`Izena`, `Pazahitza`, `Mota`) VALUES ('{izena}', '{pazahitza}', '{mota}');";
 
             msql.ExecuteNonQuery(query);
         }
 
         public void create_Stock(string izena, int kantitatea, float prezioa)
         {
-            string query = $"INSERT INTO `biltegia` (`Izena`, `Kantitatea`, `Prezioa`) VALUES ('{izena}', '{kantitatea}', '{prezioa}');";
+            string query = $"INSERT INTO `Biltegia` (`Izena`, `Kantitatea`, `Prezioa`) VALUES ('{izena}', '{kantitatea}', '{prezioa}');";
 
             msql.ExecuteNonQuery(query);
         }

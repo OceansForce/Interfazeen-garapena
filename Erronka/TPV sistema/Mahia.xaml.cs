@@ -51,10 +51,10 @@ namespace TPV_sistema
             aldatu_egoera();
 
             if (erreserbatua) {
-                query = $"INSERT INTO `ig_db`.`mahiak` ( `mahia`, `erreserbatua`, `data`, `mota`, `erabiltzailea`) VALUES ( '{id}', {true}, '{data_Box}', '{mota}', '{erabiltzailea}');";
+                query = $"INSERT INTO `Mahiak` ( `mahia`, `erreserbatua`, `data`, `mota`, `erabiltzailea`) VALUES ( '{id}', {true}, '{data_Box}', '{mota}', '{erabiltzailea}');";
             }
             else{
-                query = $"DELETE FROM `ig_db`.`mahiak` WHERE `mahia` = '{id}' AND `data` = '{data_Box}' AND `mota` = '{mota}';";
+                query = $"DELETE FROM `Mahiak` WHERE `mahia` = '{id}' AND `data` = '{data_Box}' AND `mota` = '{mota}';";
             }
 
             msql.ExecuteNonQuery(query);

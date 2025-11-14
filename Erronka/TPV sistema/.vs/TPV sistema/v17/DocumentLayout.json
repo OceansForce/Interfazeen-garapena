@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\",
+  "WorkspaceRootPath": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\erabiltzaile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:erabiltzaile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\mahia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mahia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\erabiltzaile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:erabiltzaile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\mahia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mahia.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\clase\\interfazeen-garapena\\erronka\\tpv sistema\\mahia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\erabiltzaile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:erabiltzaile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\erabiltzaile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:erabiltzaile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\mysqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mysqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|d:\\interfazeen garapena\\erronka\\tpv sistema\\mahia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{25054F4E-AF2A-442E-9ED7-F6D65116C0C4}|TPV sistema.csproj|solutionrelative:mahia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -42,53 +42,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-13T20:29:20.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCsAAAAsAAAAAAAAAA==",
+              "Title": "MySQLHelper.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\MySQLHelper.cs",
+              "RelativeDocumentMoniker": "MySQLHelper.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\MySQLHelper.cs",
+              "RelativeToolTip": "MySQLHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:19:10.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T07:53:05.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:19:10.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Admin.xaml.cs",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
               "RelativeDocumentMoniker": "Admin.xaml.cs",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Admin.xaml.cs",
               "RelativeToolTip": "Admin.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwBcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowIYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T18:13:32.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Admin.xaml",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Admin.xaml",
               "RelativeDocumentMoniker": "Admin.xaml",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Admin.xaml",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Admin.xaml",
               "RelativeToolTip": "Admin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-13T18:13:28.068Z",
@@ -96,38 +95,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Erabiltzaile.xaml",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml",
               "RelativeDocumentMoniker": "Erabiltzaile.xaml",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml",
               "RelativeToolTip": "Erabiltzaile.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-13T17:44:37.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T17:44:37.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Erabiltzaile.xaml.cs",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml.cs",
               "RelativeDocumentMoniker": "Erabiltzaile.xaml.cs",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Erabiltzaile.xaml.cs",
               "RelativeToolTip": "Erabiltzaile.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:44:41.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T17:44:41.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Mahia.xaml.cs",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Mahia.xaml.cs",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Mahia.xaml.cs",
               "RelativeDocumentMoniker": "Mahia.xaml.cs",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Mahia.xaml.cs",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Mahia.xaml.cs",
               "RelativeToolTip": "Mahia.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T16:42:34.469Z",
               "EditorCaption": ""
@@ -136,13 +133,12 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Mahia.xaml",
-              "DocumentMoniker": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Mahia.xaml",
+              "DocumentMoniker": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Mahia.xaml",
               "RelativeDocumentMoniker": "Mahia.xaml",
-              "ToolTip": "D:\\Clase\\Interfazeen-garapena\\Erronka\\TPV sistema\\Mahia.xaml",
+              "ToolTip": "D:\\Interfazeen garapena\\Erronka\\TPV sistema\\Mahia.xaml",
               "RelativeToolTip": "Mahia.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-13T18:31:31.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T18:31:31.829Z"
             }
           ]
         }

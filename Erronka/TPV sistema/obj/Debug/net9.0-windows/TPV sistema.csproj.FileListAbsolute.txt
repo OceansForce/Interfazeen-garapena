@@ -86,3 +86,7 @@ D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.baml
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.g.cs
 D:\Clase\Interfazeen-garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.g.cs
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Era.baml
+D:\Interfazeen garapena\Erronka\TPV sistema\obj\Debug\net9.0-windows\Sortu_eta_editatu_Stock.baml

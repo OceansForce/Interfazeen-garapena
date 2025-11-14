@@ -89,7 +89,7 @@ namespace TPV_sistema
         public void eguneratu(string mota, string data)
         {
             MessageBox.Show(mota +"  "+data);
-            string query = $"SELECT * From mahiak WHERE mota = '{mota}' AND data = '{data}';";
+            string query = $"SELECT * From Mahiak WHERE mota = '{mota}' AND data = '{data}';";
         
             DataTable emaitza = msql.ExecuteQuery(query);
 

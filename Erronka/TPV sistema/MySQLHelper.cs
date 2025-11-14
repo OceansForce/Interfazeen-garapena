@@ -8,7 +8,8 @@ public class MySQLHelper
 
     public MySQLHelper()
     {
-        connectionString = "server=localhost;database=IG_DB;user=root;password=2829;";
+        //connectionString = "server=localhost;database=IG_DB;user=root;password=2829;";
+        connectionString = "server=localhost;database=IG_DB;user=root;password=123;";
     }
 
     // Ejecutar consulta SELECT
