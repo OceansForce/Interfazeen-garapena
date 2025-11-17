@@ -13,17 +13,13 @@ services:
       - ./dump-IG_DB-202511141024.sql:/docker-entrypoint-initdb.d/dump.sql
     command: --init-file /docker-entrypoint-initdb.d/dump.sql
 
-  pgadmin:
-    image: dpage/pgadmin4:latest
-    container_name: pgadmin
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+  adminer:
+    image: adminer:latest
+    container_name: adminer
     ports:
-      - "8080:80"
-    volumes:
-      - pgadmin_data:/var/lib/pgadmin
+      - "8080:8080"
+    depends_on:
+      - mysql
 
 volumes:
   mysql_data:
-  pgadmin_data:
