@@ -86,5 +86,12 @@ namespace TPV_sistema
                 erreserbatua = false;
             }
         }
+
+        public void neutral()
+        {
+            MahiaId.Background = SystemColors.ControlBrush;
+            erreserbatua = false;
+            MahiaId.IsEnabled = true;
+        }
     }
 }

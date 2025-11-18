@@ -15,8 +15,8 @@
 
         <Label Content="Prezioa" HorizontalAlignment="Left" Margin="77,129,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="Prezioa_TextBox" HorizontalAlignment="Left" Margin="126,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        
-        <Button Content="Sortu" HorizontalAlignment="Left" Margin="142,164,0,0" VerticalAlignment="Top" Width="88" Click="Sortu_Click"/>
-        
+
+        <Button Content="Sortu" HorizontalAlignment="Left" Margin="142,175,0,0" VerticalAlignment="Top" Width="88" Click="Sortu_Click"/>
+
     </Grid>
 </Window>

@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPV_sistema"
+       
         mc:Ignorable="d"
         Title="Erabiltzaile" Height="450" Width="800">
     <Grid>
@@ -14,8 +15,8 @@
                     <TabControl>
                         <TabItem Header="Bazkaria">
                             <Grid>
-                                <ComboBox x:Name="datak" HorizontalAlignment="Left" Margin="628,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="datak_SelectionChanged">
-                                    
+                                <ComboBox x:Name="datak" HorizontalAlignment="Left" Margin="628,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="datak_SelectionChanged1">
+
                                 </ComboBox>
 
                                 <local:Mahia x:Name="Mesa1" HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1_Bazkaria"/>
@@ -28,12 +29,16 @@
                         </TabItem>
                         <TabItem Header="Afaria">
                             <Grid>
-                                <local:Mahia HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1_Afaria"/>
-                                <local:Mahia HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2_Afaria"/>
-                                <local:Mahia HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3_Afaria"/>
-                                <local:Mahia HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4_Afaria"/>
-                                <local:Mahia HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5_Afaria"/>
-                                <local:Mahia HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6_Afaria"/>
+                                <ComboBox x:Name="datak_2" HorizontalAlignment="Left" Margin="628,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="datak_SelectionChanged2">
+
+                                </ComboBox>
+
+                                <local:Mahia x:Name="Mesa7" HorizontalAlignment="Left" Margin="105,90,0,0" VerticalAlignment="Top" id_mahia="1_Afaria"/>
+                                <local:Mahia x:Name="Mesa8" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" id_mahia="2_Afaria"/>
+                                <local:Mahia x:Name="Mesa9" HorizontalAlignment="Left" Margin="599,90,0,0" VerticalAlignment="Top" id_mahia="3_Afaria"/>
+                                <local:Mahia x:Name="Mesa10" HorizontalAlignment="Left" Margin="105,244,0,0" VerticalAlignment="Top" id_mahia="4_Afaria"/>
+                                <local:Mahia x:Name="Mesa11" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" id_mahia="5_Afaria"/>
+                                <local:Mahia x:Name="Mesa12" HorizontalAlignment="Left" Margin="599,244,0,0" VerticalAlignment="Top" id_mahia="6_Afaria"/>
                             </Grid>
                         </TabItem>
 
@@ -41,23 +46,33 @@
 
                 </Grid>
             </TabItem>
-            <TabItem Header="Kontsumoa">
+            <TabItem Header="Kontsumoa" Height="20" VerticalAlignment="Bottom">
                 <Grid>
-                    <ListBox x:Name="ItemsListBox" Margin="10,68,556,67">
+                    <ListView x:Name="Lista1" Margin="31,68,515,67">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Izena" DisplayMemberBinding="{Binding Izena}" Width="83"/>
+                                <GridViewColumn Header="Kantitatea" DisplayMemberBinding="{Binding Kantitatea}" Width="80"/>
+                                <GridViewColumn Header="Prezioa" DisplayMemberBinding="{Binding Prezioa}" Width="80"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <ListBox x:Name="erosi" Margin="311,68,260,67">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Margin="10,5">
-                                    <Image Source="{Binding Icon}" Width="32" Height="32" Margin="0,0,15,0"/>
-                                    <StackPanel>
-                                        <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="14"/>
-                                    </StackPanel>
-                                </StackPanel>
+                                <TextBlock Text="{Binding}" Margin="2"/>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
+
+                    <TextBox x:Name="Kantitatea" HorizontalAlignment="Left" Margin="577,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Sartu" HorizontalAlignment="Left" Margin="702,67,0,0" VerticalAlignment="Top" Click="Button_sartu"/>
+                    <TextBlock x:Name="Totala" HorizontalAlignment="Left" Margin="623,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                    <Label Content="Totala=" HorizontalAlignment="Left" Margin="577,110,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Baieztatu" HorizontalAlignment="Left" Margin="577,167,0,0" VerticalAlignment="Top" Width="157" Click="Button_baieztatu"/>
                 </Grid>
             </TabItem>
-
         </TabControl>
         <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="696,0,0,0" Height="32" Width="72" Click="longin_click"/>
     </Grid>

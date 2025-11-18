@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Data;
+using System.Windows;
 
 public class MySQLHelper
 {
@@ -8,8 +9,8 @@ public class MySQLHelper
 
     public MySQLHelper()
     {
-        //connectionString = "server=localhost;database=IG_DB;user=root;password=2829;";
-        connectionString = "server=localhost;database=IG_DB;user=root;password=123;";
+        connectionString = "server=localhost;database=IG_DB;user=root;password=2829;";
+        //connectionString = "server=localhost;database=IG_DB;user=root;password=123;";
     }
 
     // Ejecutar consulta SELECT
@@ -35,20 +36,33 @@ public class MySQLHelper
     {
         int rowsAffected = 0;
 
-        using (MySqlConnection connection = new MySqlConnection(connectionString))
-        using (MySqlCommand command = new MySqlCommand(query, connection))
+        try
         {
-            if (parameters != null)
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            using (MySqlCommand command = new MySqlCommand(query, connection))
             {
-                command.Parameters.AddRange(parameters);
-            }
+                if (parameters != null)
+                {
+                    command.Parameters.AddRange(parameters);
+                }
 
-            connection.Open();
-            rowsAffected = command.ExecuteNonQuery();
+                connection.Open();
+                rowsAffected = command.ExecuteNonQuery();
+            }
+        }
+        catch (MySqlException ex)
+        {
+            MessageBox.Show($"Error MySQL: {ex.Message}\nCódigo: {ex.Number}", "Error de Base de Datos");
+            return -1; // Retornar un valor que indique error
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error: {ex.Message}", "Error General");
+            return -1;
         }
 
         return rowsAffected;
     }
 
-  
+
 }

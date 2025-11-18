@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TPV_sistema
 {
@@ -34,7 +36,6 @@ namespace TPV_sistema
                 Kantitatea_TextBox.Text =  kantitatea.ToString();
                 Prezioa_TextBox.Text = prezio.ToString();
             }
-
         }
 
         private void Sortu_Click(object sender, RoutedEventArgs e)
@@ -47,6 +48,10 @@ namespace TPV_sistema
             };
 
             this.DialogResult = true;
+          
         }
+
+  
+        
     }
 }

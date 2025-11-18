@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data;
@@ -89,8 +90,18 @@ namespace TPV_sistema
 
                 if (editatu_window.ShowDialog() == true)
                 {
-                    string query = $"UPDATE `Biltegia` SET `Izena` = '{editatu_window.stock_berria.Izena}', `Kantitatea` = '{editatu_window.stock_berria.Kantitatea}', `Prezioa` = '{editatu_window.stock_berria.Prezioa}' WHERE `Izena` = '{stock.Izena}';";
-                    msql.ExecuteNonQuery(query);
+                    string query = @"UPDATE `Biltegia` SET `Izena` = @izena_berria, `Kantitatea` = @kantitatea, `Prezioa` = @prezioa WHERE `Izena` = @izena_original";
+
+                    MySqlParameter[] parameters = {
+                        new MySqlParameter("@izena_berria", editatu_window.stock_berria.Izena),
+                        new MySqlParameter("@kantitatea", editatu_window.stock_berria.Kantitatea),
+                        new MySqlParameter("@prezioa", editatu_window.stock_berria.Prezioa),
+                        new MySqlParameter("@izena_original", stock.Izena)
+                    };
+
+                    int result = msql.ExecuteNonQuery(query, parameters);
+
+
                     datuak_kargatu_stock();
                 }
             }
@@ -125,18 +136,16 @@ namespace TPV_sistema
 
                     stock.Izena = emaitza.Rows[i]["Izena"].ToString();
                     stock.Kantitatea = Convert.ToInt32(emaitza.Rows[i]["Kantitatea"]);
-                    stock.Prezioa = Convert.ToSingle(emaitza.Rows[i]["Prezioa"]);
+                    stock.Prezioa = Convert.ToSingle(emaitza.Rows[i]["Prezioa"]);                   
+                   
 
                     stock_taula.Add(stock);
-
                 }
                 Lista1.ItemsSource = stock_taula;
             }
             else { 
                 Lista1.ItemsSource=null;
             }
-            
-
         }
 
         private void datuak_kargatu_erabil()
@@ -180,9 +189,16 @@ namespace TPV_sistema
 
         public void create_Stock(string izena, int kantitatea, float prezioa)
         {
-            string query = $"INSERT INTO `Biltegia` (`Izena`, `Kantitatea`, `Prezioa`) VALUES ('{izena}', '{kantitatea}', '{prezioa}');";
+            string query = @"INSERT INTO `Biltegia` (`Izena`, `Kantitatea`, `Prezioa`) 
+                 VALUES (@izena, @kantitatea, @prezioa, @img)";
 
-            msql.ExecuteNonQuery(query);
+            MySqlParameter[] parameters = {
+                new MySqlParameter("@izena", izena),
+                new MySqlParameter("@kantitatea", kantitatea),
+                new MySqlParameter("@prezioa", prezioa),
+            };
+
+            msql.ExecuteNonQuery(query, parameters);
         }
 
         private void Button_irten(object sender, RoutedEventArgs e)
