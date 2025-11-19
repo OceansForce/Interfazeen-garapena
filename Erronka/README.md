@@ -1,4 +1,4 @@
-Dockerra piztu, sartu adminer-ren esta sql-a importatu.
+Docker compose muntatu "docker compose up" aginduarekin, sartu adminer-ren nabigatzailearen bidez "localhost:8081" jartzen bilatzailean, logeatu adminer-ren azpiko datuak jartzen, barruan egonda "importar" botoiari eman beharko zaio sql-a inportatzeko (sql-a= dump-IG_DB-202511191238.sql).
 
 Erabiltzaile taulan bi erabiltzaile daude.
 - Julen pazahitza=123 Admin
