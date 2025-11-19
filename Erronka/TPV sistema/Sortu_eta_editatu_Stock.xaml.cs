@@ -40,18 +40,32 @@ namespace TPV_sistema
 
         private void Sortu_Click(object sender, RoutedEventArgs e)
         {
-            stock_berria = new Stock
+            if (Kantitatea_TextBox.Text == "" || Prezioa_TextBox.Text == "" || Izena_TextBox.Text == "")
             {
-                Izena = Izena_TextBox.Text,
-                Kantitatea = int.Parse(Kantitatea_TextBox.Text),
-                Prezioa = float.Parse(Prezioa_TextBox.Text)
-            };
+                MessageBox.Show("Mesedez, bete eremu guztiak.");
 
-            this.DialogResult = true;
+            }
+            else if (!int.TryParse(Kantitatea_TextBox.Text, out _))
+            {
+                MessageBox.Show("Kantitatea zenbaki oso bat izan behar da.");
+            }
+            else if (!float.TryParse(Prezioa_TextBox.Text, out _))
+            {
+                MessageBox.Show("Prezioa zenbaki bat izan behar da.");
+            }
+            else
+            {
+
+                stock_berria = new Stock
+                {
+                    Izena = Izena_TextBox.Text,
+                    Kantitatea = int.Parse(Kantitatea_TextBox.Text),
+                    Prezioa = float.Parse(Prezioa_TextBox.Text)
+                };
+
+                this.DialogResult = true;
+            }
           
         }
-
-  
-        
     }
 }

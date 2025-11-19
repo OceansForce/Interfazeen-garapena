@@ -52,16 +52,44 @@ public class MySQLHelper
         }
         catch (MySqlException ex)
         {
-            MessageBox.Show($"Error MySQL: {ex.Message}\nCódigo: {ex.Number}", "Error de Base de Datos");
-            return -1; // Retornar un valor que indique error
+            return ManejarErrorMySQL(ex);
         }
         catch (Exception ex)
         {
-            MessageBox.Show($"Error: {ex.Message}", "Error General");
+            MessageBox.Show($"Error general: {ex.Message}", "Error");
             return -1;
         }
 
         return rowsAffected;
+    }
+
+    private int ManejarErrorMySQL(MySqlException ex)
+    {
+        string mensaje = "";
+
+        switch (ex.Number)
+        {
+            case 1062: // Violación de PRIMARY KEY o UNIQUE KEY
+                mensaje = "Errorea: Erabiltzaile edo Produktu izena existitzen da";
+
+                break;
+
+            case 1045: // Acceso denegado
+                mensaje ="Sarbide-errorea: Erabiltzaile edo pasahitz okerrak.";
+                break;
+
+            case 1042: // No se puede conectar al servidor
+                mensaje = "Konexio-errorea: Ezin da datu-basearen zerbitzarira konektatu.";
+                break;
+
+            default:
+                mensaje = $"Error MySQL [{ex.Number}]: {ex.Message}";
+                break;
+        }
+
+        MessageBox.Show(mensaje);
+
+        return -ex.Number;
     }
 
 
