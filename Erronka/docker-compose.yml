@@ -10,8 +10,6 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./dump-IG_DB-202511141024.sql:/docker-entrypoint-initdb.d/dump.sql
-    command: --init-file /docker-entrypoint-initdb.d/dump.sql
 
   adminer:
     image: adminer:latest

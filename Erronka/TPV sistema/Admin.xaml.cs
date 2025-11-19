@@ -190,7 +190,7 @@ namespace TPV_sistema
         public void create_Stock(string izena, int kantitatea, float prezioa)
         {
             string query = @"INSERT INTO `Biltegia` (`Izena`, `Kantitatea`, `Prezioa`) 
-                 VALUES (@izena, @kantitatea, @prezioa, @img)";
+                 VALUES (@izena, @kantitatea, @prezioa)";
 
             MySqlParameter[] parameters = {
                 new MySqlParameter("@izena", izena),

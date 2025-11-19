@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TPV_sistema
 {
@@ -165,9 +166,9 @@ namespace TPV_sistema
                                 }
                                 else if (row["erabiltzailea"]?.ToString() != erabiltzailea)
                                 {
-                                    bool a = dataDbStr == data && row["erabiltzailea"]?.ToString() == erabiltzailea;
+                                   /* bool a = dataDbStr == data && row["erabiltzailea"]?.ToString() == erabiltzailea;
                                     bool b2 = dataDbStr == data;
-                                    bool c2 = row["erabiltzailea"]?.ToString() == erabiltzailea;
+                                    bool c2 = row["erabiltzailea"]?.ToString() == erabiltzailea;*/
 
                                     Mesa1.desaktibatu();
                                 }
@@ -233,7 +234,7 @@ namespace TPV_sistema
                     Mesa4.neutral();
                     Mesa5.neutral();
                     Mesa6.neutral();
-                    MessageBox.Show("No se encontraron filas en la tabla mahiak");
+                   // MessageBox.Show("No se encontraron filas en la tabla mahiak");
                 }
             }
             else if (mota=="Afaria") {
@@ -328,7 +329,7 @@ namespace TPV_sistema
                     Mesa10.neutral();
                     Mesa11.neutral();
                     Mesa12.neutral();
-                    MessageBox.Show("No se encontraron filas en la tabla mahiak");
+                    //MessageBox.Show("No se encontraron filas en la tabla mahiak");
                 }
             }
             
@@ -376,35 +377,41 @@ namespace TPV_sistema
                     if (stock.Kantitatea >= int.Parse(Kantitatea.Text))
                     {
 
-
-
                         for (int i = erosi.Items.Count - 1; i >= 0; i--)
                         {
                             string item = erosi.Items[i] as string;
+                            string[] zatitu = item.Split("--");
+                            string prezioa_zatitu = zatitu[2].Replace("€", "");
+                            
                             if (item != null && item.Contains(stock.Izena))
                             {
+                                Total -= (float)Math.Round(float.Parse(prezioa_zatitu),2);
+                                Total = (float)Math.Round(Total, 2);
                                 erosi.Items.RemoveAt(i);
-
                             }
                         }
 
 
-                        erosi.Items.Add(stock.Izena + "--" + Kantitatea.Text);
+                        float total_prezio = (float)Math.Round(int.Parse(Kantitatea.Text) * stock.Prezioa, 2);
+                        erosi.Items.Add(stock.Izena + "--" + Kantitatea.Text + "--" + total_prezio + "€");
 
-                        foreach (var item1 in produktuak)
+                        
+                        for (int i = erosi.Items.Count - 1; i >= 0; i--)
                         {
-                            for (int i = erosi.Items.Count - 1; i >= 0; i--)
+                            string[] item2 = erosi.Items[i].ToString().Split("--");
+                            if (item2.Contains(stock.Izena))
                             {
-                                string[] item2 = erosi.Items[i].ToString().Split("--");
-                                if (item2.Contains(item1.Key))
-                                {
-                                    int kantitatea = int.Parse(item2[1]);
+                                int kantitatea = int.Parse(item2[1]);
 
-                                    Total += item1.Value * kantitatea;
-                                    produktuak_kant[item1.Key] = kantitatea;
-                                }
+                                total_prezio = (float)Math.Round(int.Parse(Kantitatea.Text) * stock.Prezioa, 2);
+
+                                Total += total_prezio;
+                               
+                                Total = (float)Math.Round(Total, 2);
+                                produktuak_kant[stock.Izena] = kantitatea;
                             }
                         }
+                        
                         Totala.Text = Total.ToString() + " €";
                     }
                     else
@@ -428,6 +435,23 @@ namespace TPV_sistema
                 msql.ExecuteNonQuery(query);
             }
             datuak_kargatu_stock();
+        }
+
+        private void Button_Ezabatu(object sender, RoutedEventArgs e)
+        {
+            if (erosi.SelectedIndex != -1)
+            {
+                string item = erosi.SelectedItem.ToString();
+                string[] zatitu = item.Split("--");
+                string prezioa_zatitu = zatitu[2].Replace("€", "");
+
+                erosi.Items.RemoveAt(erosi.SelectedIndex);
+
+                Total -= (float)Math.Round(float.Parse(prezioa_zatitu), 2);
+                Total = (float)Math.Round(Total, 2);
+                Totala.Text = Total.ToString() + " €";
+                produktuak_kant.Remove(zatitu[0]);
+            }
         }
     }
 }

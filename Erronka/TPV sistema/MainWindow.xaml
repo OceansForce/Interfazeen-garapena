@@ -10,7 +10,7 @@
         <Label Content="Izena" HorizontalAlignment="Left" Margin="73,50,0,0" VerticalAlignment="Top" Width="43"/>
         <TextBox x:Name="izena" HorizontalAlignment="Left" Margin="121,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
-        <Label Content="Pazahitza" HorizontalAlignment="Left" Margin="73,92,0,0" VerticalAlignment="Top" Width="43"/>
+        <Label Content="Pazahitza" HorizontalAlignment="Left" Margin="55,92,0,0" VerticalAlignment="Top" Width="61"/>
         <TextBox x:Name="pazahitza" HorizontalAlignment="Left" Margin="121,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button Content="Login" HorizontalAlignment="Left" Margin="73,139,0,0" VerticalAlignment="Top" Width="168" Click="Longi"/>
 

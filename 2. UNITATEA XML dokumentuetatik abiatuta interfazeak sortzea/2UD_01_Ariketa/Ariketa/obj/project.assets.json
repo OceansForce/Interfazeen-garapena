@@ -8,23 +8,23 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\julen\\.nuget\\packages\\": {},
+    "C:\\Users\\ik012982i18\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Clase\\Interfazeen-garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\Ariketa.csproj",
+      "projectUniqueName": "D:\\Interfazeen garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\Ariketa.csproj",
       "projectName": "Ariketa",
-      "projectPath": "D:\\Clase\\Interfazeen-garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\Ariketa.csproj",
-      "packagesPath": "C:\\Users\\julen\\.nuget\\packages\\",
-      "outputPath": "D:\\Clase\\Interfazeen-garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\obj\\",
+      "projectPath": "D:\\Interfazeen garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\Ariketa.csproj",
+      "packagesPath": "C:\\Users\\ik012982i18\\.nuget\\packages\\",
+      "outputPath": "D:\\Interfazeen garapena\\2. UNITATEA XML dokumentuetatik abiatuta interfazeak sortzea\\2UD_01_Ariketa\\Ariketa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\julen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ik012982i18\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
